@@ -1,0 +1,346 @@
+/*default browser reset code*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+/* MTY CODE STARTS HERE */
+*{
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+}
+/* FIXING FOOTER TO THE BOTTOM STARTS HERE */
+html, body{
+    height: 100%;
+}
+main{
+    padding-top: 100px;
+    min-height: 100%;
+}
+#main{
+    overflow: auto;
+    padding-bottom: 0px;
+}
+footer{
+    background-color: #012d61;
+    position: relative;
+    margin-top: 10px;
+    clear: both;
+}
+/* ENDS HERE */
+/* HEADER STARTS HERE */
+header{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    height: 110px;
+    border-bottom: 1px black solid;
+}
+.logo{
+    margin: 5px 15px;
+    float: left;
+    width: 90px;
+    height: 90px;
+}
+.ul-left{
+    margin-left: 20px;
+    float: left;
+}
+.ul-left li{
+    float: left;
+    padding: 40px 18px;
+}
+.ul-left li a{
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+    word-spacing: 7px;
+    line-height: 20px;
+}
+.ul-right{
+    float: left;
+    position:absolute;
+    right: 10px;
+}
+.ul-right li{
+    float: left;
+    padding: 40px 5px;
+}
+.ul-right li a{
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+    word-spacing: 7px;
+}
+input{
+    width: 100px;
+    height: 20px;
+    outline: none;
+    border: 1.7px solid;
+    border-radius: 10px;
+    margin-top: -6px;
+}
+.personicon{
+    width: 40px;
+    height: 40px;
+    margin-top: -10px;
+}
+::placeholder{
+    padding: 8px;
+}
+/* HEADER ENDS HERE */
+/* FOOTERE STARTS HERE */
+.footer1{
+    margin-bottom: 180px;
+    height: 1000px;
+    padding: 30px 40px;
+    border-bottom: 10px white solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.finddoctor{
+    padding: 10px;
+    padding-right: 80px;
+    width: fit-content;
+    border: 2px solid;
+    border-color: #274c79;
+    border-radius: 7px;
+    list-style: none;
+    fill: white;
+}
+.finddoctor p{
+    margin: 10px 20px;
+    float: right;
+    font-family:"Open Sans";
+    font-size: 13px;
+    font-size: 100;
+    color: white;
+}
+.arrow{
+    padding-top: 10px;
+    position: absolute;
+    left: 250px;
+}
+.newsletter{
+    padding: 10px;
+    padding-right: 72px;
+    width: fit-content;
+    border: 2px solid;
+    border-color: #274c79;
+    border-radius: 7px;
+    list-style: none;
+    fill: white;
+}
+.newsletter p{
+    margin: 0px 20px;
+    float: right;
+    font-family:"Open Sans";
+    font-size: 13px;
+    font-size: 100;
+    color: white;
+}
+.list_one{
+    width: fit-content;
+    height: fit-content;
+    display: block;
+    list-style: none;
+    color: white;
+    line-height: 40px;
+    font-size: 13px;
+    font-family: "Open Sans";
+}
+.list_one li{
+    color: white;
+}
+.topic{
+    font-weight: 900;
+    font-size: 18px;
+    color: white;
+    font-family: "Lora";
+}
+.column2{
+        width: fit-content;
+        line-height: 40px;
+        font-size: 13px;
+        font-family: "Open Sans";
+}
+.column2 li{
+    color: white;
+    list-style: none;
+}
+.column3{
+    width: fit-content;
+    line-height: 40px;
+    font-size: 13px;
+    font-family: "Open Sans";
+}
+.column3 li{
+color: white;
+list-style: none;
+}
+.footer2{
+    width: 85%;
+    border-top: 1.7px solid ;
+    border-color: #274c79;
+    position: absolute;
+    top: 600px;
+    margin: 40px;
+}
+.footer2 p{
+    line-height: 40px;
+    font-weight: 900;
+    font-size: 18px;
+    color: white;
+    font-family: "Lora";
+}
+.footer2 img{
+    padding: 10px;
+    border: 2px solid;
+    border-color: #274c79;
+    width: 20px;
+    height: 20px;
+}
+.c1r3{
+    margin-top: -120px;
+    width: 200px;
+    position: absolute;
+    left: 700px;
+}
+.c1r3 div{
+    margin-top: -10px;
+    display: flex;
+    flex-direction: row;
+}
+.c1r3 img{
+    border: 1px;
+    border-radius: 17px;
+    width: 120px;
+    height: 40px;
+}
+.aquacolor{
+    background-color: #e1f0ff;
+    height: 200px;
+}
+.tandc{
+    padding-top: 45px;
+    margin: -380px 0px 0px 12px;
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    width: fit-content;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Open Sans";
+}
+.tandc p{
+    color: #0c0928;
+}
+.allright{
+    margin-left: 40px;
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    width: fit-content;
+    font-size: 14px;
+    font-family: "Open Sans";
+    font-weight: 600;
+    color: #0c0928;
+}
+.lang{
+    margin-left: 550px;
+}
+/* FOOTER ENDS HERE */
