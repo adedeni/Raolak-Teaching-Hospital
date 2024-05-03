@@ -187,17 +187,14 @@ input{
     padding: 20px 50px 0px 70px;
 }
 .footer1{
-    margin-bottom: 180px;
+    margin-bottom: 250px;
     height: 1000px;
     padding: 30px 40px;
-    border-bottom: 10px white solid;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
 }
 .finddoctor{
     padding-right: 80px;
-    width: fit-content;
     border: 2px solid;
     border-color: #4fb286;
     border-radius: 10px;
@@ -210,7 +207,6 @@ input{
     float: right;
     font-family:"Open Sans";
     font-size: 13px;
-    font-size: 100;
     color: white;
 }
 .arrow{
@@ -220,7 +216,6 @@ input{
 }
 .newsletter{
     padding-right: 72px;
-    width: fit-content;
     border: 2px solid;
     border-color: #4fb286;
     border-radius: 10px;
@@ -233,14 +228,10 @@ input{
     float: right;
     font-family:"Open Sans";
     font-size: 13px;
-    font-size: 100;
     color: white;
     line-height: 22px;
 }
 .list_one{
-    list-style: none;
-    color: white;
-    line-height: 40px;
     font-size: 13px;
     font-family: "Open Sans";
 }
@@ -254,7 +245,6 @@ input{
     font-family: "Lora";
 }
 .column1{
-    width: fit-content;
     line-height: 40px;
     font-size: 13px;
     font-family: "Open Sans";
@@ -264,7 +254,6 @@ input{
     list-style: none;
 }
 .column2{
-        width: fit-content;
         line-height: 40px;
         font-size: 13px;
         font-family: "Open Sans";
@@ -284,12 +273,12 @@ color: white;
 list-style: none;
 }
 .footer2{
-    width: 85%;
-    border-top: 1.7px solid ;
+    margin-left: 40px;
+    width: 77%;
+    border-top: 1.7px solid;
     border-color: #4fb286;
     position: absolute;
-    top: 600px;
-    margin: 40px;
+    top: 690px;
 }
 .footer2 p{
     line-height: 40px;
@@ -299,35 +288,28 @@ list-style: none;
     font-family: "Lora";
     margin-left: 6px;
 }
-.footer2 a{
-    margin-left: 4px;
-}
 .footer2 img{
-    padding: 10px;
+    padding: 15px;
     border: 2px solid;
     border-color: #4fb286;
-    width: 20px;
-    height: 20px;
-}
-.c1r3{
-    margin-top: -120px;
-    width: 200px;
-    position: absolute;
-    left: 700px;
-}
-.c1r3 div{
-    margin-top: -10px;
-    display: flex;
-    flex-direction: row;
 }
 .c1r3 img{
-    margin-left: -8px;
+    margin-right: 8px;
     border: 0px;
-    border-radius: 17px;
+    border-radius: 22px;
     width: 120px;
     height: 40px;
 }
+.socialicon{
+    display: flex;
+    flex-direction: row;
+}
+.socialicon img{
+    width: 20px;
+    height: 20px;
+}
 .aquacolor{
+    padding: 0px 50px 0px 70px;
     background-color: #e1f0ff;
     height: 200px;
 }
@@ -336,8 +318,6 @@ list-style: none;
     margin: -380px 0px 0px 12px;
     display: flex;
     gap: 30px;
-    flex-direction: row;
-    width: fit-content;
     font-size: 14px;
     font-weight: 600;
     font-family: "Open Sans";
@@ -346,17 +326,15 @@ list-style: none;
     color: #0c0928;
 }
 .allright{
-    margin-left: 40px;
+    margin: 30px 0px 0px 40px;
     display: flex;
     gap: 30px;
-    flex-direction: row;
-    width: fit-content;
     font-size: 14px;
     font-family: "Open Sans";
     font-weight: 600;
     color: #0c0928;
 }
 .lang{
-    margin-left: 550px;
+    margin-left: 390px;
 }
 /* FOOTER ENDS HERE */
