@@ -113,7 +113,7 @@ main{
     padding-bottom: 0px;
 }
 footer{
-    background-color: #012d61;
+    background-color: #3c896d;
     position: relative;
     margin-top: 10px;
     clear: both;
@@ -183,6 +183,9 @@ input{
 }
 /* HEADER ENDS HERE */
 /* FOOTERE STARTS HERE */
+.footer_wrapper{
+    padding: 20px 50px 0px 70px;
+}
 .footer1{
     margin-bottom: 180px;
     height: 1000px;
@@ -193,17 +196,17 @@ input{
     grid-template-rows: 1fr 1fr;
 }
 .finddoctor{
-    padding: 10px;
     padding-right: 80px;
     width: fit-content;
     border: 2px solid;
-    border-color: #274c79;
-    border-radius: 7px;
-    list-style: none;
-    fill: white;
+    border-color: #4fb286;
+    border-radius: 10px;
+}
+.steth{
+    margin: 14px 0px 0px 20px;
 }
 .finddoctor p{
-    margin: 10px 20px;
+    margin: 6px 10px 0px 15px;
     float: right;
     font-family:"Open Sans";
     font-size: 13px;
@@ -211,32 +214,30 @@ input{
     color: white;
 }
 .arrow{
-    padding-top: 10px;
+    padding-top: 20px;
     position: absolute;
-    left: 250px;
+    right: 220px;
 }
 .newsletter{
-    padding: 10px;
     padding-right: 72px;
     width: fit-content;
     border: 2px solid;
-    border-color: #274c79;
-    border-radius: 7px;
-    list-style: none;
-    fill: white;
+    border-color: #4fb286;
+    border-radius: 10px;
+}
+.mail{
+    margin: 14px 0px 0px 20px;
 }
 .newsletter p{
-    margin: 0px 20px;
+    margin: 6px 10px 0px 15px;
     float: right;
     font-family:"Open Sans";
     font-size: 13px;
     font-size: 100;
     color: white;
+    line-height: 22px;
 }
 .list_one{
-    width: fit-content;
-    height: fit-content;
-    display: block;
     list-style: none;
     color: white;
     line-height: 40px;
@@ -251,6 +252,16 @@ input{
     font-size: 18px;
     color: white;
     font-family: "Lora";
+}
+.column1{
+    width: fit-content;
+    line-height: 40px;
+    font-size: 13px;
+    font-family: "Open Sans";
+}
+.column1 li{
+    color: white;
+    list-style: none;
 }
 .column2{
         width: fit-content;
@@ -275,7 +286,7 @@ list-style: none;
 .footer2{
     width: 85%;
     border-top: 1.7px solid ;
-    border-color: #274c79;
+    border-color: #4fb286;
     position: absolute;
     top: 600px;
     margin: 40px;
@@ -286,11 +297,15 @@ list-style: none;
     font-size: 18px;
     color: white;
     font-family: "Lora";
+    margin-left: 6px;
+}
+.footer2 a{
+    margin-left: 4px;
 }
 .footer2 img{
     padding: 10px;
     border: 2px solid;
-    border-color: #274c79;
+    border-color: #4fb286;
     width: 20px;
     height: 20px;
 }
@@ -306,7 +321,8 @@ list-style: none;
     flex-direction: row;
 }
 .c1r3 img{
-    border: 1px;
+    margin-left: -8px;
+    border: 0px;
     border-radius: 17px;
     width: 120px;
     height: 40px;
