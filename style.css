@@ -289,12 +289,11 @@ list-style: none;
     margin-left: 6px;
 }
 .footer2 img{
-    padding: 15px;
+    padding: 10px;
     border: 2px solid;
     border-color: #4fb286;
 }
 .c1r3 img{
-    margin-right: 8px;
     border: 0px;
     border-radius: 22px;
     width: 120px;
@@ -303,6 +302,7 @@ list-style: none;
 .socialicon{
     display: flex;
     flex-direction: row;
+    gap: 10px;
 }
 .socialicon img{
     width: 20px;
