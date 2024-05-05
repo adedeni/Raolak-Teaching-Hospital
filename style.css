@@ -139,7 +139,8 @@ header{
 }
 .ul-left li{
     float: left;
-    padding: 40px 18px;
+    padding: 30px 18px;
+    position: relative;
 }
 .ul-left li a{
     font-family: "Open Sans";
@@ -149,6 +150,25 @@ header{
     word-spacing: 7px;
     line-height: 20px;
 }
+.ul-left li a:hover{
+    color: #3c896d;
+    text-decoration: underline;
+}
+.dropdown{
+    width: 220px;
+    display: none;
+    position: absolute;
+    background-color: white;
+    border-radius: 6px;
+}
+.ul-left li:hover ul{
+    display: block;
+}
+.dropdown li a:hover{
+    background-color: #fafafa;
+    color: #3c896d;
+    text-decoration: underline;
+}
 .ul-right{
     float: left;
     position:absolute;
@@ -156,28 +176,32 @@ header{
 }
 .ul-right li{
     float: left;
-    padding: 40px 5px;
+    padding: 40px 10px;
 }
 .ul-right li a{
     font-family: "Open Sans";
     font-size: 15px;
     font-weight: 500;
     color: black;
-    word-spacing: 7px;
 }
+.ul-right li a:hover{
+    color: #3c896d;
+    text-decoration: underline;
+}
+.search-container {
+    position: relative;
+  }
 input{
-    width: 100px;
-    height: 20px;
+    height: 25px;
     outline: none;
     border: 1.7px solid;
     border-radius: 10px;
     margin-top: -6px;
+    padding-left: 8px;
 }
-.personicon{
-    width: 40px;
-    height: 40px;
-    margin-top: -10px;
-}
+.search-button {
+    border: none;
+  }
 ::placeholder{
     padding: 8px;
 }
@@ -196,8 +220,11 @@ input{
 .finddoctor{
     padding-right: 80px;
     border: 2px solid;
-    border-color: #4fb286;
+    border-color: white;
     border-radius: 10px;
+}
+.finddoctor:hover{
+    border-color: #4fb286;
 }
 .steth{
     margin: 14px 0px 0px 20px;
@@ -217,8 +244,11 @@ input{
 .newsletter{
     padding-right: 72px;
     border: 2px solid;
-    border-color: #4fb286;
+    border-color: white;
     border-radius: 10px;
+}
+.newsletter:hover{
+    border-color: #4fb286;
 }
 .mail{
     margin: 14px 0px 0px 20px;
@@ -234,6 +264,10 @@ input{
 .list_one{
     font-size: 13px;
     font-family: "Open Sans";
+}
+.list_one li:hover{
+    color: #4fb286;
+    text-decoration: underline;
 }
 .list_one li{
     color: white;
@@ -253,6 +287,10 @@ input{
     color: white;
     list-style: none;
 }
+.column1 li:hover{
+    color: #4fb286;
+    text-decoration: underline;
+}
 .column2{
         line-height: 40px;
         font-size: 13px;
@@ -261,6 +299,10 @@ input{
 .column2 li{
     color: white;
     list-style: none;
+}
+.column2 li:hover{
+    color: #4fb286;
+    text-decoration: underline;
 }
 .column3{
     width: fit-content;
@@ -271,6 +313,10 @@ input{
 .column3 li{
 color: white;
 list-style: none;
+}
+.column3 li:hover{
+    color: #4fb286;
+    text-decoration: underline;
 }
 .footer2{
     margin-left: 40px;
@@ -291,13 +337,19 @@ list-style: none;
 .footer2 img{
     padding: 10px;
     border: 2px solid;
-    border-color: #4fb286;
+    border-color: white;
 }
 .c1r3 img{
     border: 0px;
     border-radius: 22px;
     width: 120px;
     height: 40px;
+}
+.c1r3 img:hover{
+    border: 0px;
+    border-radius: 22px;
+    width: 130px;
+    height: 42px;
 }
 .socialicon{
     display: flex;
@@ -308,6 +360,9 @@ list-style: none;
     width: 20px;
     height: 20px;
 }
+.socialicon a img:hover{
+    border-color: #4fb286;
+}
 .aquacolor{
     padding: 0px 50px 0px 70px;
     background-color: #e1f0ff;
@@ -315,12 +370,16 @@ list-style: none;
 }
 .tandc{
     padding-top: 45px;
-    margin: -380px 0px 0px 12px;
+    margin: -380px 0px 0px 40px;
     display: flex;
     gap: 30px;
     font-size: 14px;
     font-weight: 600;
     font-family: "Open Sans";
+}
+.tandc p:hover{
+    color: #3c896d;
+    text-decoration: underline;
 }
 .tandc p{
     color: #0c0928;
