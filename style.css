@@ -217,6 +217,60 @@ input{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+.topic{
+    font-weight: 900;
+    font-size: 18px;
+    color: white;
+    font-family: "Lora";
+}
+.column1{
+    line-height: 40px;
+    font-size: 13px;
+    font-family: "Open Sans";
+}
+.column1 ul li{
+    list-style: none;
+}
+.column1 a{
+    color: white;
+}
+.column1 a:hover{
+    color: #4fb286;
+    text-decoration: underline;
+}
+.column2{
+        line-height: 40px;
+        font-size: 13px;
+        font-family: "Open Sans";
+}
+.column2 a{
+    color: white;
+    list-style: none;
+}
+.column2 ul li{
+    list-style: none;
+}
+.column2 a:hover{
+    color: #4fb286;
+    text-decoration: underline;
+}
+.column3{
+    width: fit-content;
+    line-height: 40px;
+    font-size: 13px;
+    font-family: "Open Sans";
+}
+.column3 a{
+color: white;
+list-style: none;
+}
+.column3 ul li{
+    list-style: none;
+}
+.column3 a:hover{
+    color: #4fb286;
+    text-decoration: underline;
+}
 .finddoctor{
     padding-right: 80px;
     border: 2px solid;
@@ -260,63 +314,6 @@ input{
     font-size: 13px;
     color: white;
     line-height: 22px;
-}
-.list_one{
-    font-size: 13px;
-    font-family: "Open Sans";
-}
-.list_one li:hover{
-    color: #4fb286;
-    text-decoration: underline;
-}
-.list_one li{
-    color: white;
-}
-.topic{
-    font-weight: 900;
-    font-size: 18px;
-    color: white;
-    font-family: "Lora";
-}
-.column1{
-    line-height: 40px;
-    font-size: 13px;
-    font-family: "Open Sans";
-}
-.column1 li{
-    color: white;
-    list-style: none;
-}
-.column1 li:hover{
-    color: #4fb286;
-    text-decoration: underline;
-}
-.column2{
-        line-height: 40px;
-        font-size: 13px;
-        font-family: "Open Sans";
-}
-.column2 li{
-    color: white;
-    list-style: none;
-}
-.column2 li:hover{
-    color: #4fb286;
-    text-decoration: underline;
-}
-.column3{
-    width: fit-content;
-    line-height: 40px;
-    font-size: 13px;
-    font-family: "Open Sans";
-}
-.column3 li{
-color: white;
-list-style: none;
-}
-.column3 li:hover{
-    color: #4fb286;
-    text-decoration: underline;
 }
 .footer2{
     margin-left: 40px;
