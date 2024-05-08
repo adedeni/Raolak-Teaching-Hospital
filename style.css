@@ -1,5 +1,4 @@
-
-/default browser reset code/
+/*default browser reset code*/
 
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -510,8 +509,7 @@ header{
 }
 .ul-left li{
     float: left;
-    padding: 30px 18px;
-    position: relative;
+    padding: 40px 18px;
 }
 .ul-left li a{
     font-family: "Open Sans";
@@ -669,7 +667,7 @@ list-style: none;
 .arrow{
     padding-top: 20px;
     position: absolute;
-    right: 240px;
+    right: 220px;
 }
 .newsletter{
     padding-right: 72px;
