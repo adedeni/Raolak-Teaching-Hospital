@@ -1,4 +1,5 @@
-/*default browser reset code*/
+
+/default browser reset code/
 
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -94,6 +95,382 @@ hr {
 input, select {
     vertical-align:middle;
 }
+
+/*my code*/
+
+.top {
+    margin-top: -200px;
+    width: 70%;
+    height: 540px;
+    text-decoration: none;
+    
+    
+}
+
+.top div {
+    padding-top:200px;
+    padding-left: 100px;
+}
+
+.top div, h1, h3 {
+    line-height: 90px;
+}
+
+ h1{
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-weight: 1;
+    line-height: 60px;
+}
+
+span {
+   color: #3C896D;
+   font-weight: 100px;
+
+}
+.dash{
+    padding-bottom: 40px;
+    margin-bottom: 50px;
+}
+.img{
+    background-image:url(/Raolak-Teaching-Hospital/img/ban.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 96%;
+    height: 650px;
+    margin-left: 30px;
+    border-radius: 10px;
+    color:white;
+    justify-items: right;
+}
+
+.img h3 {
+    padding-top:560px;
+    font-size: 25px;
+    padding-left: 30px;
+    text-shadow: 1px 1px 1px 0 black;
+}
+
+.photo {
+    display: flex;
+    flex-direction: row;
+    margin-top: 140px ;
+    width: 70%;
+    margin-right: 100px;
+    margin-left: 220px;
+    height:1000px;
+    
+}
+
+.left{
+    width: 50%;
+    height: 650px;
+    background-color: aqua;
+    background-image: url(/Raolak-Teaching-Hospital/icons/Clinika-member-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.right {
+    width: 50%;
+    margin-left: 15%;
+    line-height: 35px;
+     
+}
+
+.right h2 {
+    font-size: 35px;
+    padding-top: 20px;
+}
+
+.right p {
+    padding-top: 20px;
+    font-size: 18px;
+}
+.right h3 {
+    padding-top: 10px;
+}
+
+.sub {
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px ;
+    width: 70%;
+    margin-right: 100px;
+    margin-left: 220px;
+    height: 600px;
+}
+
+.subleft {
+    width: 50%;
+    line-height: 35px;
+    padding-right: 15%;
+}
+
+.subright {
+    width: 50%;
+    background-color: aqua;
+    height: 600px;
+    background-image: url(/Raolak-Teaching-Hospital/icons/clinika_blog-700x500.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.subleft h2 {
+    font-size: 35px;
+    padding-top: 20px;
+}
+
+.subleft p {
+    padding-top: 20px;
+    font-size: 18px;
+}
+.subleft h3 {
+    padding-top: 10px;
+}
+
+button{
+    width: 250px;
+    height: 30px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+button:hover{
+    transform: scale(1.5);
+}
+
+.third {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+     width: 100%;
+     height: 600px;
+     margin-top: 250px;
+
+}
+
+  
+
+.third .box {
+    width:27%;
+    margin-top:160px;  
+    height: 300px;
+    background-color: #50ffb1;
+}
+.third .box img{
+   padding-top: 20px;
+   padding-left: 160px; 
+    
+}
+
+.third .box h4 {
+    text-align: center;
+    padding-top: 30px;    
+}
+
+.third .box p {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.thlft {
+    display: flex;
+    flex-direction: column;
+    width:47%;
+    background-color: aqua;
+    border-top: 1px solid rgb(85, 82, 82);
+}
+
+
+.text{
+    width: 100%;
+    height: 40%;
+      
+    
+}
+
+.text h1{
+
+    font-size: 22px;
+    line-height: 25px;
+    padding-bottom: 30px;  
+    
+}
+.top{
+    height: 20%;
+    padding-top: 15px;
+}
+.text h2 {
+    font-size: 70px;
+    padding-bottom: 20px;
+}
+
+.text p{
+    font-size: 20px;
+}
+.pic {
+    width: 100%;
+}
+
+.thrgh {
+    width: 47%;
+    background-color:#ccc;
+    border-top: 1px solid rgb(82, 81, 81);
+}
+
+.h4 {
+    width:55%;
+    height:300px;
+    margin-top: -200px;
+    margin-left: 20%;
+}
+
+h4 {
+    font-size: 37px;
+    font-weight: 1;
+}
+
+.h4 p {
+    padding-top: 20px;
+}
+
+
+.photo1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 140px ;
+    width: 70%;
+    margin-right: 100px;
+    margin-left: 220px;
+    height:1000px;
+    
+}
+
+.photo1 .left{
+    width: 50%;
+    height: 650px;
+    background-image:url(/Raolak-Teaching-Hospital/img/desktop.jpg);
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.right {
+    width: 50%;
+    margin-left: 15%;
+    line-height: 35px;
+}
+
+.right h2 {
+    font-size: 35px;
+    padding-top: 20px;
+}
+
+.right p {
+    padding-top: 20px;
+    font-size: 18px;
+}
+.right h3 {
+    padding-top: 10px;
+}
+.wrapper{
+    width: 90%;
+    height: 400px;
+    margin-left: 5%;
+    border-top: 2px solid rgb(222, 213, 213);
+    margin-top: 70px;
+}
+
+.wrapper p {
+    margin-top: 120px;
+}
+
+.boxcover{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+    height: 500px;
+}
+
+.box{
+    width: 30%;
+    height: 270px;
+    margin: 10px;
+    border-radius: 5px;
+    align-items: center;
+    padding-left: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.box:hover{
+    transform: scale(1.05); 
+}
+.icon{
+    width: 100%;
+    height: 90px;
+    background-color: #3C896D;
+    background-image: url(/Raolak-Teaching-Hospital/icons/icons8-map-marker-80.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon1{
+    width: 100%;
+    height: 90px;
+    background-color: #3C896D;
+    background-image: url(/Raolak-Teaching-Hospital/icons/icons8-community-80.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon2{
+    width: 100%;
+    height: 90px;
+    background-color: #3C896D;
+    background-image: url(/Raolak-Teaching-Hospital/icons/icons8-chain-document-64.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon3{
+    width: 100%;
+    height: 90px;
+    background-color: #3C896D;
+    background-image: url(/Raolak-Teaching-Hospital/icons/icons8-handshake-50.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon4{
+    width: 100%;
+    height: 90px;
+    background-color: #3C896D;
+    background-image: url(/Raolak-Teaching-Hospital/icons/icons8-world-markets-80.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.icon5{
+    width: 100%;
+    height: 90px;
+    background-color: #3C896D;
+    background-image: url(/Raolak-Teaching-Hospital/icons/icons8-heart-with-pulse-80.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.box h3{
+    padding-top:20px;
+
+}
+.box p {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+/* footer new */
 /* MTY CODE STARTS HERE */
 *{
     text-decoration: none;
@@ -105,15 +482,10 @@ html, body{
     height: 100%;
 }
 main{
-    padding-top: 100px;
     min-height: 100%;
 }
-#main{
-    overflow: auto;
-    padding-bottom: 0px;
-}
 footer{
-    background-color: #012d61;
+    background-color: #3c896d;
     position: relative;
     margin-top: 10px;
     clear: both;
@@ -121,7 +493,6 @@ footer{
 /* ENDS HERE */
 /* HEADER STARTS HERE */
 header{
-    position: fixed;
     background-color: white;
     width: 100%;
     height: 110px;
@@ -139,7 +510,8 @@ header{
 }
 .ul-left li{
     float: left;
-    padding: 40px 18px;
+    padding: 30px 18px;
+    position: relative;
 }
 .ul-left li a{
     font-family: "Open Sans";
@@ -149,6 +521,25 @@ header{
     word-spacing: 7px;
     line-height: 20px;
 }
+.ul-left li a:hover{
+    color: #3c896d;
+    text-decoration: underline;
+}
+.dropdown{
+    width: 220px;
+    display: none;
+    position: absolute;
+    background-color: white;
+    border-radius: 6px;
+}
+.ul-left li:hover ul{
+    display: block;
+}
+.dropdown li a:hover{
+    background-color: #fafafa;
+    color: #3c896d;
+    text-decoration: underline;
+}
 .ul-right{
     float: left;
     position:absolute;
@@ -156,95 +547,51 @@ header{
 }
 .ul-right li{
     float: left;
-    padding: 40px 5px;
+    padding: 40px 10px;
 }
 .ul-right li a{
     font-family: "Open Sans";
     font-size: 15px;
     font-weight: 500;
     color: black;
-    word-spacing: 7px;
 }
+.ul-right li a:hover{
+    color: #3c896d;
+    text-decoration: underline;
+}
+.search-container {
+    position: relative;
+  }
 input{
-    width: 100px;
-    height: 20px;
+    height: 25px;
     outline: none;
     border: 1.7px solid;
     border-radius: 10px;
     margin-top: -6px;
+    padding-left: 8px;
 }
-.personicon{
-    width: 40px;
-    height: 40px;
-    margin-top: -10px;
-}
+.search-button {
+    border: none;
+  }
 ::placeholder{
     padding: 8px;
 }
 /* HEADER ENDS HERE */
+/* MAIN STARTS HERE */
+
+
+ /* MAIN ENDS HERE */
 /* FOOTERE STARTS HERE */
+.footer_wrapper{
+    padding: 20px 50px 0px 70px;
+    margin-top: 600px;
+}
 .footer1{
-    margin-bottom: 180px;
+    margin-bottom: 250px;
     height: 1000px;
     padding: 30px 40px;
-    border-bottom: 10px white solid;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-}
-.finddoctor{
-    padding: 10px;
-    padding-right: 80px;
-    width: fit-content;
-    border: 2px solid;
-    border-color: #274c79;
-    border-radius: 7px;
-    list-style: none;
-    fill: white;
-}
-.finddoctor p{
-    margin: 10px 20px;
-    float: right;
-    font-family:"Open Sans";
-    font-size: 13px;
-    font-size: 100;
-    color: white;
-}
-.arrow{
-    padding-top: 10px;
-    position: absolute;
-    left: 250px;
-}
-.newsletter{
-    padding: 10px;
-    padding-right: 72px;
-    width: fit-content;
-    border: 2px solid;
-    border-color: #274c79;
-    border-radius: 7px;
-    list-style: none;
-    fill: white;
-}
-.newsletter p{
-    margin: 0px 20px;
-    float: right;
-    font-family:"Open Sans";
-    font-size: 13px;
-    font-size: 100;
-    color: white;
-}
-.list_one{
-    width: fit-content;
-    height: fit-content;
-    display: block;
-    list-style: none;
-    color: white;
-    line-height: 40px;
-    font-size: 13px;
-    font-family: "Open Sans";
-}
-.list_one li{
-    color: white;
 }
 .topic{
     font-weight: 900;
@@ -252,15 +599,36 @@ input{
     color: white;
     font-family: "Lora";
 }
+.column1{
+    line-height: 40px;
+    font-size: 13px;
+    font-family: "Open Sans";
+}
+.column1 ul li{
+    list-style: none;
+}
+.column1 a{
+    color: white;
+}
+.column1 a:hover{
+    color: #4fb286;
+    text-decoration: underline;
+}
 .column2{
-        width: fit-content;
         line-height: 40px;
         font-size: 13px;
         font-family: "Open Sans";
 }
-.column2 li{
+.column2 a{
     color: white;
     list-style: none;
+}
+.column2 ul li{
+    list-style: none;
+}
+.column2 a:hover{
+    color: #4fb286;
+    text-decoration: underline;
 }
 .column3{
     width: fit-content;
@@ -268,17 +636,68 @@ input{
     font-size: 13px;
     font-family: "Open Sans";
 }
-.column3 li{
+.column3 a{
 color: white;
 list-style: none;
 }
-.footer2{
-    width: 85%;
-    border-top: 1.7px solid ;
-    border-color: #274c79;
+.column3 ul li{
+    list-style: none;
+}
+.column3 a:hover{
+    color: #4fb286;
+    text-decoration: underline;
+}
+.finddoctor{
+    padding-right: 80px;
+    border: 2px solid;
+    border-color: white;
+    border-radius: 10px;
+}
+.finddoctor:hover{
+    border-color: #4fb286;
+}
+.steth{
+    margin: 14px 0px 0px 20px;
+}
+.finddoctor p{
+    margin: 6px 10px 0px 15px;
+    float: right;
+    font-family:"Open Sans";
+    font-size: 13px;
+    color: white;
+}
+.arrow{
+    padding-top: 20px;
     position: absolute;
-    top: 600px;
-    margin: 40px;
+    right: 240px;
+}
+.newsletter{
+    padding-right: 72px;
+    border: 2px solid;
+    border-color: white;
+    border-radius: 10px;
+}
+.newsletter:hover{
+    border-color: #4fb286;
+}
+.mail{
+    margin: 14px 0px 0px 20px;
+}
+.newsletter p{
+    margin: 6px 10px 0px 15px;
+    float: right;
+    font-family:"Open Sans";
+    font-size: 13px;
+    color: white;
+    line-height: 22px;
+}
+.footer2{
+    margin-left: 40px;
+    width: 77%;
+    border-top: 1.7px solid;
+    border-color: #4fb286;
+    position: absolute;
+    top: 690px;
 }
 .footer2 p{
     line-height: 40px;
@@ -286,61 +705,69 @@ list-style: none;
     font-size: 18px;
     color: white;
     font-family: "Lora";
+    margin-left: 6px;
 }
 .footer2 img{
     padding: 10px;
     border: 2px solid;
-    border-color: #274c79;
-    width: 20px;
-    height: 20px;
-}
-.c1r3{
-    margin-top: -120px;
-    width: 200px;
-    position: absolute;
-    left: 700px;
-}
-.c1r3 div{
-    margin-top: -10px;
-    display: flex;
-    flex-direction: row;
+    border-color: white;
 }
 .c1r3 img{
-    border: 1px;
-    border-radius: 17px;
+    border: 0px;
+    border-radius: 22px;
     width: 120px;
     height: 40px;
 }
+.c1r3 img:hover{
+    border: 0px;
+    border-radius: 22px;
+    width: 130px;
+    height: 42px;
+}
+.socialicon{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.socialicon img{
+    width: 20px;
+    height: 20px;
+}
+.socialicon a img:hover{
+    border-color: #4fb286;
+}
 .aquacolor{
+    padding: 0px 50px 0px 70px;
     background-color: #e1f0ff;
     height: 200px;
 }
 .tandc{
     padding-top: 45px;
-    margin: -380px 0px 0px 12px;
+    margin: -380px 0px 0px 40px;
     display: flex;
     gap: 30px;
-    flex-direction: row;
-    width: fit-content;
     font-size: 14px;
     font-weight: 600;
     font-family: "Open Sans";
+}
+.tandc p:hover{
+    color: #3c896d;
+    text-decoration: underline;
 }
 .tandc p{
     color: #0c0928;
 }
 .allright{
-    margin-left: 40px;
+    margin: 30px 0px 0px 40px;
     display: flex;
     gap: 30px;
-    flex-direction: row;
-    width: fit-content;
     font-size: 14px;
     font-family: "Open Sans";
     font-weight: 600;
     color: #0c0928;
 }
 .lang{
-    margin-left: 550px;
+    margin-left: 390px;
 }
 /* FOOTER ENDS HERE */
+
