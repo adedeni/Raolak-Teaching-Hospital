@@ -105,12 +105,7 @@ html, body{
     height: 100%;
 }
 main{
-    padding-top: 100px;
     min-height: 100%;
-}
-#main{
-    overflow: auto;
-    padding-bottom: 0px;
 }
 footer{
     background-color: #3c896d;
@@ -121,7 +116,6 @@ footer{
 /* ENDS HERE */
 /* HEADER STARTS HERE */
 header{
-    position: fixed;
     background-color: white;
     width: 100%;
     height: 110px;
@@ -155,6 +149,7 @@ header{
     text-decoration: underline;
 }
 .dropdown{
+    border-bottom: black 1px solid;
     width: 220px;
     display: none;
     position: absolute;
@@ -206,6 +201,72 @@ input{
     padding: 8px;
 }
 /* HEADER ENDS HERE */
+/* MAIN STARTS HERE */
+.banner{
+    width: 100%;
+    height: 540px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: slide 20s infinite;
+}
+
+@keyframes slide {
+  0%, 25% {
+    background-image: url('img/banner.png');
+  }
+  25%, 50% {
+    background-image: url('img/banner2.png');
+  }
+  50%, 75% {
+    background-image: url('img/banner3.png');
+  }
+  75%, 100% {
+    background-image: url('img/banner4.png');
+  }
+}
+.banner p,span, .book{
+    position: relative;
+    top: 320px;
+}
+.banner p{
+    padding: 35px;
+    font-family: "Lora";
+    color: white;
+    font-size: 59px;
+}
+.banner span{
+    padding: 40px;
+    font-family: "Lora";
+    color: white;
+    font-size: 20px;
+}
+.banner img{
+    margin-left: 10px;
+    width: 11px;
+    height: 11px;
+}
+.banner a{
+    margin: 40px 0px 0px -15px;
+    font-family: "Lora";
+    color: white;
+    padding: 12px;
+    width: fit-content;
+    border: white 2.5px solid;
+    border-radius: 50px;
+}
+.mainwrapper{
+    margin: 4% 10%;
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+}
+/* MAIN ENDS HERE */
 /* FOOTERE STARTS HERE */
 .footer_wrapper{
     padding: 20px 50px 0px 70px;
@@ -293,7 +354,7 @@ list-style: none;
 .arrow{
     padding-top: 20px;
     position: absolute;
-    right: 220px;
+    right: 240px;
 }
 .newsletter{
     padding-right: 72px;
