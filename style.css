@@ -1,4 +1,4 @@
-/*default browser reset code*/
+/* default browser reset code */
 
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -94,382 +94,6 @@ hr {
 input, select {
     vertical-align:middle;
 }
-
-/*my code*/
-
-.top {
-    margin-top: -200px;
-    width: 70%;
-    height: 540px;
-    text-decoration: none;
-    
-    
-}
-
-.top div {
-    padding-top:200px;
-    padding-left: 100px;
-}
-
-.top div, h1, h3 {
-    line-height: 90px;
-}
-
- h1{
-    font-size: 50px;
-    font-family:Georgia, 'Times New Roman', Times, serif ;
-    font-weight: 1;
-    line-height: 60px;
-}
-
-span {
-   color: #3C896D;
-   font-weight: 100px;
-
-}
-.dash{
-    padding-bottom: 40px;
-    margin-bottom: 50px;
-}
-.img{
-    background-image:url(/Raolak-Teaching-Hospital/img/ban.jpg);
-    background-repeat:no-repeat;
-    background-size: cover;
-    width: 96%;
-    height: 650px;
-    margin-left: 30px;
-    border-radius: 10px;
-    color:white;
-    justify-items: right;
-}
-
-.img h3 {
-    padding-top:560px;
-    font-size: 25px;
-    padding-left: 30px;
-    text-shadow: 1px 1px 1px 0 black;
-}
-
-.photo {
-    display: flex;
-    flex-direction: row;
-    margin-top: 140px ;
-    width: 70%;
-    margin-right: 100px;
-    margin-left: 220px;
-    height:1000px;
-    
-}
-
-.left{
-    width: 50%;
-    height: 650px;
-    background-color: aqua;
-    background-image: url(/Raolak-Teaching-Hospital/icons/Clinika-member-4.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.right {
-    width: 50%;
-    margin-left: 15%;
-    line-height: 35px;
-     
-}
-
-.right h2 {
-    font-size: 35px;
-    padding-top: 20px;
-}
-
-.right p {
-    padding-top: 20px;
-    font-size: 18px;
-}
-.right h3 {
-    padding-top: 10px;
-}
-
-.sub {
-    display: flex;
-    flex-direction: row;
-    margin-top: 70px ;
-    width: 70%;
-    margin-right: 100px;
-    margin-left: 220px;
-    height: 600px;
-}
-
-.subleft {
-    width: 50%;
-    line-height: 35px;
-    padding-right: 15%;
-}
-
-.subright {
-    width: 50%;
-    background-color: aqua;
-    height: 600px;
-    background-image: url(/Raolak-Teaching-Hospital/icons/clinika_blog-700x500.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.subleft h2 {
-    font-size: 35px;
-    padding-top: 20px;
-}
-
-.subleft p {
-    padding-top: 20px;
-    font-size: 18px;
-}
-.subleft h3 {
-    padding-top: 10px;
-}
-
-button{
-    width: 250px;
-    height: 30px;
-    background-color: white;
-    border-radius: 20px;
-}
-
-button:hover{
-    transform: scale(1.5);
-}
-
-.third {
-    display:flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-     width: 100%;
-     height: 600px;
-     margin-top: 250px;
-
-}
-
-  
-
-.third .box {
-    width:27%;
-    margin-top:160px;  
-    height: 300px;
-    background-color: #50ffb1;
-}
-.third .box img{
-   padding-top: 20px;
-   padding-left: 160px; 
-    
-}
-
-.third .box h4 {
-    text-align: center;
-    padding-top: 30px;    
-}
-
-.third .box p {
-    text-align: center;
-    padding-top: 20px;
-}
-
-.thlft {
-    display: flex;
-    flex-direction: column;
-    width:47%;
-    background-color: aqua;
-    border-top: 1px solid rgb(85, 82, 82);
-}
-
-
-.text{
-    width: 100%;
-    height: 40%;
-      
-    
-}
-
-.text h1{
-
-    font-size: 22px;
-    line-height: 25px;
-    padding-bottom: 30px;  
-    
-}
-.top{
-    height: 20%;
-    padding-top: 15px;
-}
-.text h2 {
-    font-size: 70px;
-    padding-bottom: 20px;
-}
-
-.text p{
-    font-size: 20px;
-}
-.pic {
-    width: 100%;
-}
-
-.thrgh {
-    width: 47%;
-    background-color:#ccc;
-    border-top: 1px solid rgb(82, 81, 81);
-}
-
-.h4 {
-    width:55%;
-    height:300px;
-    margin-top: -200px;
-    margin-left: 20%;
-}
-
-h4 {
-    font-size: 37px;
-    font-weight: 1;
-}
-
-.h4 p {
-    padding-top: 20px;
-}
-
-
-.photo1 {
-    display: flex;
-    flex-direction: row;
-    margin-top: 140px ;
-    width: 70%;
-    margin-right: 100px;
-    margin-left: 220px;
-    height:1000px;
-    
-}
-
-.photo1 .left{
-    width: 50%;
-    height: 650px;
-    background-image:url(/Raolak-Teaching-Hospital/img/desktop.jpg);
-    
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.right {
-    width: 50%;
-    margin-left: 15%;
-    line-height: 35px;
-}
-
-.right h2 {
-    font-size: 35px;
-    padding-top: 20px;
-}
-
-.right p {
-    padding-top: 20px;
-    font-size: 18px;
-}
-.right h3 {
-    padding-top: 10px;
-}
-.wrapper{
-    width: 90%;
-    height: 400px;
-    margin-left: 5%;
-    border-top: 2px solid rgb(222, 213, 213);
-    margin-top: 70px;
-}
-
-.wrapper p {
-    margin-top: 120px;
-}
-
-.boxcover{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    margin-top: 20px;
-    height: 500px;
-}
-
-.box{
-    width: 30%;
-    height: 270px;
-    margin: 10px;
-    border-radius: 5px;
-    align-items: center;
-    padding-left: 20px;
-    background-color: white;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-}
-.box:hover{
-    transform: scale(1.05); 
-}
-.icon{
-    width: 100%;
-    height: 90px;
-    background-color: #3C896D;
-    background-image: url(/Raolak-Teaching-Hospital/icons/icons8-map-marker-80.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.icon1{
-    width: 100%;
-    height: 90px;
-    background-color: #3C896D;
-    background-image: url(/Raolak-Teaching-Hospital/icons/icons8-community-80.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.icon2{
-    width: 100%;
-    height: 90px;
-    background-color: #3C896D;
-    background-image: url(/Raolak-Teaching-Hospital/icons/icons8-chain-document-64.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.icon3{
-    width: 100%;
-    height: 90px;
-    background-color: #3C896D;
-    background-image: url(/Raolak-Teaching-Hospital/icons/icons8-handshake-50.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.icon4{
-    width: 100%;
-    height: 90px;
-    background-color: #3C896D;
-    background-image: url(/Raolak-Teaching-Hospital/icons/icons8-world-markets-80.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.icon5{
-    width: 100%;
-    height: 90px;
-    background-color: #3C896D;
-    background-image: url(/Raolak-Teaching-Hospital/icons/icons8-heart-with-pulse-80.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.box h3{
-    padding-top:20px;
-
-}
-.box p {
-    margin-top: 5px;
-    font-size: 20px;
-}
-
-/* footer new */
 /* MTY CODE STARTS HERE */
 *{
     text-decoration: none;
@@ -509,7 +133,8 @@ header{
 }
 .ul-left li{
     float: left;
-    padding: 40px 18px;
+    padding: 30px 18px;
+    position: relative;
 }
 .ul-left li a{
     font-family: "Open Sans";
@@ -517,14 +142,12 @@ header{
     font-weight: 500;
     color: black;
     word-spacing: 7px;
-    line-height: 20px;
 }
 .ul-left li a:hover{
     color: #3c896d;
     text-decoration: underline;
 }
 .dropdown{
-    border-bottom: black 1px solid;
     width: 220px;
     display: none;
     position: absolute;
@@ -542,7 +165,7 @@ header{
 .ul-right{
     float: left;
     position:absolute;
-    right: 10px;
+    right: 0px;
 }
 .ul-right li{
     float: left;
@@ -576,10 +199,361 @@ input{
     padding: 8px;
 }
 /* HEADER ENDS HERE */
+/* MAIN STARTS HERE */
+.banner{
+    width: 100%;
+    height: 530px;
+    animation: 40s slide infinite;
+    background-position: center;
+}
+.banner p{
+    padding: 40px;
+    font-size: 50px;
+    font-family: "Lora";;
+    color: white;
+    position: absolute;
+    top: 400px;
+    font-weight: 700;
+}
+.banner span{
+    padding: 40px;
+    font-size: 25px;
+    font-family: "Lora";;
+    color: white;
+    position: absolute;
+    top: 500px;
+}
+.banner img{
+    margin-left: 410px;
+    font-size: 22px;
+    font-family: "Lora";;
+    color: white;
+    position: absolute;
+    top: 547px;
+}
+.banner a{
+    margin-left: 450px;
+    border: white 2px solid;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: "Lora";;
+    color: white;
+    position: absolute;
+    top: 530px;
+}
+.banner a:hover{
+    transform: scale(1.04);
+    color: black;
+    border-color: black;
+}
+@keyframes slide{
+    0%,25% {
+        background-image: url(img/banner.png);
+    }
+    25%,50% {
+        background-image: url(img/banner2.png);
+    }
+    50%,75% {
+        background-image: url(img/banner3.png);
+    }
+    75%,100% {
+        background-image: url(img/banner4.png);
+    }
+}
+.mainwrapper{
+    margin: 5% 10% 5% 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+.box1{
+    border-radius: 10px;
+    margin-right: 50px;
+    height: 664px;
+    width: 100%;
+    background-image: url(img/index1.png);
+    background-position: center;
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+.box2{
+    border-radius: 10px;
+    margin-right: 50px;
+    height: 664px;
+    width: 100%;
+    background-image: url(img/index2.png);
+    background-position: center;
+}
+.indexright{
+    margin: auto 0;
+}
+.indexright p{
+    padding: 20px;
+    font-size: 18px;
+    font-family: "Lora";
+    line-height: 40px;
+    font-weight: 500;
+    width: 90%;
+}
+.indexleft{
+    margin: auto 0;
+}
+.indexleft p{
+    padding: 20px;
+    font-size: 18px;
+    font-family: "Lora";
+    line-height: 40px;
+    font-weight: 500;
+}
+.indexright h1{
+    padding: 20px;
+    font-size: 40px;
+    font-family: "Lora";
+    font-weight: 700;
+}
+.indexright h2{
+    padding: 20px 20px 0px 20px;
+    font-size: 20px;
+    font-family: "Lora";
+    font-weight: 600;
+}
+.indexleft h1{
+    padding: 20px;
+    font-size: 40px;
+    font-family: "Lora";
+    font-weight: 700;
+}
+.indexright a{
+    color: #3c896d;
+}
+.indexleft a{
+    font-size: 20px;
+    margin-left: 20px;
+    color: #3c896d;
+}
+.indexbotton{
+    line-height: 90px;
+    border-radius: 20px;
+    padding: 13px;
+    border: 2px #3c896d solid;
+    color: #3c896d;
+}
+.row3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+.r3box1{
+    margin: auto 0;
+    margin-left: 40px;
+    font-family: "Lora";
+    font-size: 18px;
+    height: 300px;
+    width: 100%;
+    line-height: 28px;
+}
+.r3box1 h1{
+    padding: 20px 10px;
+    font-size: 40px;
+    font-family: "Lora";
+    font-weight: 700;
+}
+.r3box1 p{
+    padding: 20px 10px;
+    font-size: 19px;
+    font-family: "Lora";
+    font-weight: 400;
+}
+.r3box1 a{
+    margin-left: 15px;
+    line-height: 90px;
+    border-radius: 20px;
+    padding: 13px;
+    border: 2px #3c896d solid;
+    color: #3c896d;
+}
+.r3box2{
+    color: black;
+    filter: brightness(0.8);
+    border-radius: 12px;
+    margin: 10px;
+    height: 300px;
+    width: 100%;
+    background-image:url(img/hospitalabuja.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.r3box2 h2{
+    margin-bottom: 20px;
+    font-family: "Lora";
+    font-weight: 700;
+    font-size: 22px;
+    padding: 20px;
+    position: absolute;
+    bottom: 30px;
+}
+.r3box2 p{
+    font-family: "Lora";
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px;
+    position: absolute;
+    bottom: 20px;
+}
+.r3box2:hover{
+    filter: brightness(1.0);
+}
+.r3box3{
+    font-family: "Lora";
+    font-weight: 500;
+    color: black;
+    filter: brightness(0.8);
+    border-radius: 12px;
+    margin: 10px;
+    height: 300px;
+    width: 100%;
+    background-image: url(img/hospitallagos.png);
+    background-size: cover;
+    background-position: center;
+}
+.r3box3 h2{
+    margin-bottom: 20px;
+    font-family: "Lora";
+    font-weight: 700;
+    font-size: 22px;
+    padding: 20px;
+    position: absolute;
+    bottom: 30px;
+}
+.r3box3 p{
+    font-family: "Lora";
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px;
+    position: absolute;
+    bottom: 20px;
+}
+.r3box3:hover{
+    filter: brightness(1.0);
+}
+.row4{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+}
+.r4box1{
+    margin: 30px;
+    width: 33%;
+}
+.r4box1 h1{
+    padding: 10px;
+    font-size: 40px;
+    font-family: "Lora";
+    font-weight: 700;
+}
+.r4box1 p{
+    line-height: 30px;
+    padding: 10px;
+    font-size: 19px;
+    font-family: "Lora";
+    font-weight: 500;
+}
+.r4box2{
+    width: 33%;
+    margin: 30px;
+}
+.r4box2 a{
+    color: #4fb286;
+}
+.r4box3 a{
+    color: #4fb286;
+}
+.r4box2 a:hover{
+    text-decoration: underline;
+}
+.r4box3 a:hover{
+    text-decoration: underline;
+}
+.r4box2 li{
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    color: #4fb286;
+    list-style: none;
+    line-height: 30px;
+    padding: 10px;
+    font-size: 19px;
+    font-family: "Lora";
+    font-weight: 500;
+}
+.r4box3 li{
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    color: #4fb286;
+    list-style: none;
+    line-height: 30px;
+    padding: 10px;
+    font-size: 19px;
+    font-family: "Lora";
+    font-weight: 500;
+}
+.r4box3{
+    width: 33%;
+    margin: 30px;
+}
+.lastdiv{
+    margin-bottom: -10px;
+    padding: 60px 0px 100px 120px;
+    background-color: #4d685a;
+    color: white;
+}
+.lastdiv img{
+    float: left;
+}
+.lastdiv h1{
+    line-height: 50px;
+    padding-left: 130px;
+    font-size: 40px;
+    font-family: "Lora";
+    font-weight: 600;
+    width: 70%;
+}
+.lastdiv span{
+    line-height: 30px;
+    font-size: 20px;
+    font-family: "Lora";
+    font-weight: 500;
+    float: left;
+    width: 80%;
+}
+.lastdiv a{
+    margin-left: 150px;
+    font-family: "Lora";
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 20px;
+    padding: 10px 50px;
+    color: white;
+    background-color: #4fb286;
+}
+.lastdiv a:hover{
+    background-color: #3c896d;
+}
+ /* MAIN ENDS HERE */
 /* FOOTERE STARTS HERE */
 .footer_wrapper{
     padding: 20px 50px 0px 70px;
-    margin-top: 600px;
 }
 .footer1{
     margin-bottom: 250px;
@@ -716,8 +690,7 @@ list-style: none;
 .c1r3 img:hover{
     border: 0px;
     border-radius: 22px;
-    width: 130px;
-    height: 42px;
+    transform: scale(1.1);
 }
 .socialicon{
     display: flex;
@@ -730,6 +703,7 @@ list-style: none;
 }
 .socialicon a img:hover{
     border-color: #4fb286;
+    transform: scale(1.3);
 }
 .aquacolor{
     padding: 0px 50px 0px 70px;
@@ -765,4 +739,3 @@ list-style: none;
     margin-left: 390px;
 }
 /* FOOTER ENDS HERE */
-
