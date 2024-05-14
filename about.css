@@ -522,6 +522,7 @@ header{
     text-decoration: underline;
 }
 .dropdown{
+    border-bottom: black 1px solid;
     width: 220px;
     display: none;
     position: absolute;
@@ -573,10 +574,6 @@ input{
     padding: 8px;
 }
 /* HEADER ENDS HERE */
-/* MAIN STARTS HERE */
-
-
- /* MAIN ENDS HERE */
 /* FOOTERE STARTS HERE */
 .footer_wrapper{
     padding: 20px 50px 0px 70px;
@@ -665,7 +662,7 @@ list-style: none;
 .arrow{
     padding-top: 20px;
     position: absolute;
-    right: 220px;
+    right: 240px;
 }
 .newsletter{
     padding-right: 72px;
