@@ -200,320 +200,117 @@ input{
 }
 /* HEADER ENDS HERE */
 /* MAIN STARTS HERE */
-.banner{
-    width: 100%;
-    height: 530px;
-    animation: 40s slide infinite;
-    background-position: center;
-}
-.banner p{
-    padding: 40px;
-    font-size: 50px;
-    font-family: "Lora";;
-    color: white;
-    position: absolute;
-    top: 400px;
-    font-weight: 700;
-}
-.banner span{
-    padding: 40px;
-    font-size: 25px;
-    font-family: "Lora";;
-    color: white;
-    position: absolute;
-    top: 500px;
-}
-.banner img{
-    margin-left: 410px;
-    font-size: 22px;
-    font-family: "Lora";;
-    color: white;
-    position: absolute;
-    top: 547px;
-}
-.banner a{
-    margin-left: 450px;
-    border: white 2px solid;
-    padding: 15px;
-    border-radius: 30px;
-    font-size: 20px;
-    font-family: "Lora";;
-    color: white;
-    position: absolute;
-    top: 530px;
-}
-.banner a:hover{
-    transform: scale(1.04);
-    color: black;
-    border-color: black;
-}
-@keyframes slide{
-    0%,25% {
-        background-image: url(img/banner.png);
-    }
-    25%,50% {
-        background-image: url(img/banner2.png);
-    }
-    50%,75% {
-        background-image: url(img/banner3.png);
-    }
-    75%,100% {
-        background-image: url(img/banner4.png);
-    }
-}
-.mainwrapper{
-    margin: 5% 10% 5% 10%;
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
+.wrapper{
+    margin: 0 100px;
+    height: 750px;
 }
 .row1{
+    padding: 30px 0px;
+    font-family: "Open Sans";
+    font-size: 14px;
     display: flex;
     flex-direction: row;
-    height: 100%;
-    width: 100%;
+    gap: 10px;
 }
-.box1{
-    border-radius: 10px;
-    margin-right: 50px;
-    height: 664px;
-    width: 100%;
-    background-image: url(img/index1.png);
-    background-position: center;
+.row1 span{
+    margin-left:10px;
+    font-weight: 500;
+}
+.row1 p{
+    margin-left: 370px;
 }
 .row2{
     display: flex;
     flex-direction: row;
-    height: 100%;
-    width: 100%;
 }
-.box2{
-    border-radius: 10px;
-    margin-right: 50px;
-    height: 664px;
-    width: 100%;
-    background-image: url(img/index2.png);
-    background-position: center;
+.row2left{
+    margin-right: 20px;
+    background-color: #4fb286;
+    display: flex;
+    flex-direction: row;
 }
-.indexright{
-    margin: auto 0;
-}
-.indexright p{
-    padding: 20px;
+.row2left h3{
+    font-family: "Open Sans";
     font-size: 18px;
-    font-family: "Lora";
-    line-height: 40px;
-    font-weight: 500;
-    width: 90%;
+    padding: 30px 0px 20px 30px;
+    color: white;
 }
-.indexleft{
-    margin: auto 0;
+.row2left p{
+    font-family: "Open Sans";
+    font-size: 14px;
+    padding: 0px 50px 0px 30px;
+    color: white;
 }
-.indexleft p{
-    padding: 20px;
-    font-size: 18px;
-    font-family: "Lora";
-    line-height: 40px;
-    font-weight: 500;
+.row2left div img{
+    padding-right: 50px;
 }
-.indexright h1{
-    padding: 20px;
-    font-size: 40px;
-    font-family: "Lora";
-    font-weight: 700;
+.row2right{
+    background-color: #f6f4f4;
+    color: #4fb286;
+    display: flex;
+    flex-direction: row;
+    font-family: "Open Sans";
+    font-size: 14px;
 }
-.indexright h2{
-    padding: 20px 20px 0px 20px;
-    font-size: 20px;
-    font-family: "Lora";
-    font-weight: 600;
+.row2right .openhours{
+    line-height: 20px;
+   margin: 30px 0px  50px;
+   padding: 0px 15px ;
+   border-right: 2px white solid;
 }
-.indexleft h1{
-    padding: 20px;
-    font-size: 40px;
-    font-family: "Lora";
-    font-weight: 700;
+.row2right .hours{
+    margin: 30px;
+    line-height: 20px;
 }
-.indexright a{
-    color: #3c896d;
-}
-.indexleft a{
-    font-size: 20px;
-    margin-left: 20px;
-    color: #3c896d;
-}
-.indexbotton{
-    line-height: 90px;
-    border-radius: 20px;
-    padding: 13px;
-    border: 2px #3c896d solid;
-    color: #3c896d;
-}
-.row3{
+.row3 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin: 20px;
-}
-.r3box1{
-    margin: auto 0;
-    margin-left: 40px;
-    font-family: "Lora";
-    font-size: 18px;
-    height: 300px;
-    width: 100%;
-    line-height: 28px;
-}
-.r3box1 h1{
-    padding: 20px 10px;
-    font-size: 40px;
-    font-family: "Lora";
-    font-weight: 700;
-}
-.r3box1 p{
-    padding: 20px 10px;
-    font-size: 19px;
-    font-family: "Lora";
-    font-weight: 400;
-}
-.r3box1 a{
-    margin-left: 15px;
-    line-height: 90px;
-    border-radius: 20px;
-    padding: 13px;
-    border: 2px #3c896d solid;
-    color: #3c896d;
-}
-.r3box2{
-    color: white;
-    text-shadow: 3px 3px 4px black;
-    filter: brightness(0.8);
-    border-radius: 12px;
-    margin: 10px;
-    height: 300px;
-    width: 100%;
-    background-image:url(img/hospitalabuja.jpg);
-    background-size: cover;
-    background-position: center;
-}
-.r3box2 h2{
-    margin-bottom: 20px;
-    font-family: "Lora";
-    font-weight: 700;
-    font-size: 22px;
-    padding: 20px;
-    position: absolute;
-    bottom: 30px;
-}
-.r3box2 p{
-    font-family: "Lora";
-    font-weight: 600;
-    font-size: 20px;
-    padding: 20px;
-    position: absolute;
-    bottom: 20px;
-}
-.r3box2:hover{
-    filter: brightness(1.0);
-}
-.r3box3{
-    text-shadow: 3px 3px 4px black;
-    font-family: "Lora";
-    font-weight: 500;
-    color: white;
-    filter: brightness(0.8);
-    border-radius: 12px;
-    margin: 10px;
-    height: 300px;
-    width: 100%;
-    background-image: url(img/hospitallagos.png);
-    background-size: cover;
-    background-position: center;
-}
-.r3box3 h2{
-    margin-bottom: 20px;
-    font-family: "Lora";
-    font-weight: 700;
-    font-size: 22px;
-    padding: 20px;
-    position: absolute;
-    bottom: 30px;
-}
-.r3box3 p{
-    font-family: "Lora";
-    font-weight: 600;
-    font-size: 20px;
-    padding: 20px;
-    position: absolute;
-    bottom: 20px;
-}
-.r3box3:hover{
-    filter: brightness(1.0);
+    margin: 50px;
+    line-height: 25px;
+    font-family: "Open sans";
 }
 .row4{
     display: flex;
-    flex-flow: row;
-    justify-content: space-evenly;
+    flex-direction: row;
 }
-.r4box1{
-    margin: 30px;
-    width: 33%;
-}
-.r4box1 h1{
-    padding: 10px;
-    font-size: 40px;
-    font-family: "Lora";
-    font-weight: 700;
-}
-.r4box1 p{
-    line-height: 30px;
-    padding: 10px;
-    font-size: 19px;
-    font-family: "Lora";
+.left{
+    font-size: 15px;
+    font-family: "Open sans";
     font-weight: 500;
 }
-.r4box2{
-    width: 33%;
-    margin: 30px;
+.left img{
+    border-radius: 50%;
 }
-.r4box2 a{
-    color: #4fb286;
-}
-.r4box3 a{
-    color: #4fb286;
-}
-.r4box2 a:hover{
-    text-decoration: underline;
-}
-.r4box3 a:hover{
-    text-decoration: underline;
-}
-.r4box2 li{
-    border-top: 1px black solid;
-    border-bottom: 1px black solid;
-    color: #4fb286;
+.left li{
+    margin-bottom: 20px;
     list-style: none;
-    line-height: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.left  li h4{
     padding: 10px;
-    font-size: 19px;
-    font-family: "Lora";
-    font-weight: 500;
 }
-.r4box3 li{
-    border-top: 1px black solid;
-    border-bottom: 1px black solid;
-    color: #4fb286;
-    list-style: none;
-    line-height: 30px;
-    padding: 10px;
-    font-size: 19px;
-    font-family: "Lora";
-    font-weight: 500;
+.left  li p{
+    font-weight: 400;
+    padding-top: 7px;
+    font-size: 13px;
 }
-.r4box3{
-    width: 33%;
-    margin: 30px;
-}
+.right{
+        font-size: 15px;
+        font-family: "Open sans";
+        font-weight: 500;
+        margin-left:20px;
+    }
+    .right label{
+        font-size: 14px;
+    }
+    .right input{
+        font-size: 10px;
+        font-family: "Lora";
+        width: 30px;
+        height: 15px;
+    }
 .lastdiv{
     margin-bottom: -10px;
     padding: 60px 0px 100px 120px;
