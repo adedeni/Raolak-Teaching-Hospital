@@ -130,7 +130,7 @@ input, select {
 .flater p{
     font-size: 25px;
     line-height: 30px;
-    padding-top: 0;
+    padding-top: 20px;
     width: 400px;
     margin-left: -20px;
 }
@@ -144,7 +144,6 @@ input, select {
     height:36px;
     background-color: #4fb286;
     color: #fff;
-    text-shadow: ;
     text-align: center;
     margin-left: 10 px;
     box-shadow: 1px 1px 1px#9c9999;
@@ -158,30 +157,69 @@ a {
     transform: scale(1.09);
 }
 main {
-    background-image: url(/img/main-backgb.jpg);
-    background-size: cover;    
+    background-image: url(img/main-backgb.jpg);
+    background-size: cover;   
+    height: 1400px; 
 }
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    margin-bottom: 30px;
+}
+
 
 .register {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 800px;
+    height: 1390px;
     backdrop-filter: brightness(60%);  
-    color: #fafafa;
+    color:black;
 }
 
-form{
-    display: flex;
-    flex-direction: row;
+.form{
     width: 600px;
+    height: 1000px;
+    margin-top: 130px;
     margin-left: 410px;
     line-height: 30px;
     border: 1px solid #000;
+    border-radius: 8px;
+    background-color: #ccccccb0;
+    padding-left: 60px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    padding-top: 100px;
 }
-.line{
-    
+
+textarea{
+    width:390px;
+    height: 100px;
 }
+input{
+    width:150px;
+    height: 30px;
+}
+.add{
+    width: 300px;
+}
+
+.submit{
+    margin-top: 30px;
+    margin-left:170px;
+    width: 120px;
+    height: 30px;
+    background-color: #4fb286;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.submit:hover{
+    transform: scale(1.1);
+}
+
+        
 /*
 @keyframes pulse {
     0% { transform: scale(1); }

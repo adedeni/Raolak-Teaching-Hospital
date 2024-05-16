@@ -181,7 +181,7 @@ button{
 .text2{
     width:50%;
     height:600px;
-    background-image: url(/img/contact.png);
+    background-image: url(img/contact.png);
     background-size: cover;
     background-repeat: no-repeat;
 }

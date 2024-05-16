@@ -11,7 +11,7 @@
         <a href="#" class="logo"><img class="logo" src="icons/logo.png" alt="Hospital logo"></a>
         <nav>
             <ul class="ul-left">
-                <li><a href="#">Laboratories <br>and Libraries <img src="/icons/arrowdown.png" width="15px" height="15px" alt=""></a>
+                <li><a href="#">Laboratories <br>and Libraries <img src="icons/arrowdown.png" width="15px" height="15px" alt=""></a>
                     <ul class="dropdown">
                         <li><a href="#">Hematology Lab</a></li>
                         <li><a href="#">Blood Bank</a></li>
@@ -19,7 +19,7 @@
                         <li><a href="#">Assisted Reproductive <br> Lab and Sperm Bank</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Clinics and <br>Departments <img src="/icons/arrowdown.png" width="15px" height="15px" alt=""></a>
+                <li><a href="#">Clinics and <br>Departments <img src="icons/arrowdown.png" width="15px" height="15px" alt=""></a>
                     <ul class="dropdown">
                         <li><a href="#">Accident and emergency (A&E) and Intensive Care Unit (ICU)</a></li>
                         <li><a href="#">Cardiology and General Surgery</a></li>
@@ -27,7 +27,7 @@
                         <li><a href="#">Neurology and Ophthalmology</a></li>
                         <li><a href="#">Obstetrics/Gynecology and Oncology</a></li>
                     </ul></li>
-                <li><a href="#">Medical Research <br>and Education <img src="/icons/arrowdown.png" width="15px" height="15px" alt="">
+                <li><a href="#">Medical Research <br>and Education <img src="icons/arrowdown.png" width="15px" height="15px" alt="">
                     <ul class="dropdown">
                         <li><a href="#">Postdoctoral Fellowships</a></li>
                         <li><a href="#">Training Grant Programs</a></li>
@@ -35,7 +35,7 @@
                     </ul>
                 </a>
                 </li>
-                <li><a href="#">Clinical Trials <br>and Drug-Test <img src="/icons/arrowdown.png" width="15px" height="15px" alt="">
+                <li><a href="#">Clinical Trials <br>and Drug-Test <img src="icons/arrowdown.png" width="15px" height="15px" alt="">
                     <ul class="dropdown">
                         <li><a href="#">Pilot and Feasibility Studies</a></li>
                         <li><a href="#">Prevention Trials and Test</a></li>
@@ -60,34 +60,34 @@
                 </ul>
             </div>
         </nav>
-    </header>
+    </header>    
     <main>
         <div class="register">
-            <form action="">
+            <form action="" class="form">
                 <h1>New Patient Enrollment</h1>
                 <div class="line">
                 <label for="">Name</label> <br>
-                <input type="text" placeholder="First name">
-                <input type="text" placeholder="lastname">
+                <input type="text" placeholder="First name" required>
+                <input type="text" placeholder="lastname" required>
                 </div>
-               <div class="line"><div><label for="">Date of Birth </label><br> 
-                <input type="tel" placeholder="MM-DD-YYYY"> </div> 
-                <div><label for="">Sex</label>
+               <div class="line"><label for="">Date of Birth </label><br> 
+                <input type="tel" placeholder="MM-DD-YYYY"> 
+                <label for="">Sex</label>
                 <select name="Gender">
                     <option value="n">None</option> 
                     <option value="m">Male</option>
                     <option value="f">Female</option>
-                </select></div>
+                </select>
                 </div> 
                 <div class="line">
                     <label for="">Height(meters)</label><br>
                     <input type="tel" placeholder="e.g 1.8m">
-                    <label for="">Weight(kg)</label><br>
+                    <label for="">Weight(kg)</label>
                     <input type="number" placeholder="e.g 63kg">
                 </div>
 
                 <div class="line">
-                    <label for="Marita status">Marita status </label>
+                    <label for="Marita status">Marita status </label><br>
                     <select name="Marriage">
                         <option value="n">None</option>
                         <option value="2">single</option>
@@ -97,29 +97,49 @@
                     </select> 
                 </div>
                 <div class="line">
-                    <label for="">Phone number</label>
+                    <label for="">Phone number</label><br>
                     <input type="tel" placeholder="E.g 07062046741" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
                     <label for="">E-Mail</label>
-                    <input type="text" placeholder="enter your mail here" >
+                    <input type="text" placeholder="enter your mail here" required >
                 </div>
                 <div class="line">
-                    <label for="">Address</label>
-                    <input type="text" placeholder="">
+                    <label for="" >Address</label><br>
+                    <input type="text" placeholder="Enter your address here" class="add">
                 </div>
                 <div class="line">
-                    <label for="">City</label>
-                    <input type="text" placeholder="">
-                    <label for="">state</label>\
-                    <input type="text" placeholder="">
+                    <label for="">City</label><br>
+                    <input type="text" placeholder="e.g ibadan">
+                    <label for="">state</label>
+                    <input type="text" placeholder=" e.g Lagos">
                 </div>
                 <div class="line">
-                    <label for="">Taking any medications?</label>
+                    <label for="">Taking any medications?</label><br>
                     Yes:<input type="radio" name="y">
                     No:<input type="radio" name="y">
                 </div>
-                <div class="line">
 
+                <div class="line">
+                    <textarea name="message" id="" placeholder="list the medications here"></textarea>
                 </div>
+
+                <h2>IN CASE OF EMERGENCEY</h2>
+
+                <div class="line">
+                    <label for="">Emergency Contact</label> <br>
+                    <input type="text" placeholder="First name">
+                    <input type="text" placeholder="lastname">
+                </div>
+
+                    <div class="line">
+                        <label for="">Relationship</label><br> 
+                        <input type="text" placeholder="e.g brother or sister...">
+                        <label for="">phone number</label>
+                        <input type="tel" placeholder="emergency phone number">
+                    </div>
+
+                    <input type="submit" value="Submit" class="submit">
+                    
+       
 
             </form>
         </div>
@@ -130,7 +150,7 @@
         
     </main>
     <div class="flat"> 
-        <div class="flater"><img src="/icons/icons8-heart-with-pulse-80.png" alt=""> <h4>Your gift holds great power – donate today!</h4><p>Make your tax-deductible gift and be a part of the cutting-edge research and care that's changing medicine.</p>  <a href=""><h1>Donate</h1></a></div>
+        <div class="flater"><img src="icons/icons8-heart-with-pulse-80.png" alt=""> <h4>Your gift holds great power – donate today!</h4><p>Make your tax-deductible gift and be a part of the cutting-edge research and care that's changing medicine.</p>  <a href=""><h1>Donate</h1></a></div>
     </div>
     <footer>
         
