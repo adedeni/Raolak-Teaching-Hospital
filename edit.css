@@ -206,7 +206,6 @@ input{
 }
 .firstcolumn{
     height: 100%;
-    width: 100%;
     font-size: 14px;
     font-family: "Open sans";
     margin: 20px;
@@ -214,17 +213,49 @@ input{
 .dashicon{
     display: flex;
     flex-direction: row;
-    padding: 25px 0px 0px 10px;
+    padding: 25px 0px 0px 20px;
+}
+.dashicon img{
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+}
+.dashicon a{
+    color: black;
+}
+.update {
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: row;
+    font-family: "Lora";
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 20px;
+    padding: 5px 7px;
+    background-color: #4fb286;
+    color: white;
+}
+.update:hover{
+    background-color: #3c896d;
 }
 .toolicon{
     display: flex;
     flex-direction: row;
-    padding: 25px 0px 0px 10px;
+    padding: 25px 0px 0px 20px;
+}
+.toolicon img{
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
 }
 .secondcolumn{
+    margin: 20px 50px;
     height: 100%;
     width: 100%;
-    background-color: green;
+    line-height: 50px;
+    font-family: "Lora";
+    font-size: 15px;
+    font-weight: 700;
 }
 .thirdcolumn{
     height: 100%;

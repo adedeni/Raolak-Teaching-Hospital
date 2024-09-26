@@ -1,4 +1,12 @@
-<!DOCTYPE html>
+<?php
+require_once "includes/config.inc.php";
+require_once "includes/edit_model.inc.php";
+if(!isset($_SESSION['user_id'])){
+    header("Location: login.php");
+     die();
+ }
+ ?>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,7 +15,7 @@
     <meta name="Raolak Teaching Hospital" description="This is a Teaching Hospital website">
     <meta name="keywords" content="healthcare, doctor, emergency, patients">
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="patientdashboard.css">
+    <link rel="stylesheet" href="edit.css?v=2.0">
     <link rel="shortcut icon" href="icons/favicon.png">
     <title>Patient Dashboard</title> 
 </head>
@@ -50,7 +58,9 @@
             <ul class="ul-right">
                     <li><a href="#">Book appointment</a></li>
                     <li>
-                        <a href="#">Log in</a>
+                    <form action="includes/logout.inc.php" method="POST">
+           <a href="login.php">Logout</a>
+   </form>
                     </li>
                     <li>
                         <form action="#" method="post">
@@ -70,7 +80,7 @@
            <div class="firstcolumn">
             <h4>General</h4><br>
             <div class="dashicon">
-                <img width="20px" height="20px" src="icons/dashboard.png" alt=""><h3>Dashboard</h3>
+                <img width="20px" height="20px" src="icons/dashboard.png" alt=""><h3><a style="text-decoration: none;" href="dashboard.php">Dashboard</a></h3>
             </div>
             <div class="dashicon">
                 <img width="20px" height="20px"  src="icons/appointment.png" alt=""><h3>Appointment</h3> <br>
@@ -87,9 +97,30 @@
                 <img width="20px" height="20px"  src="icons/support.png" alt=""><h3>Support</h3> <br>
             </div>
            </div>
+           
            <div class="secondcolumn">
-
-           </div>
+           <h1>Profile Update</h1>
+    <h4>
+    <form action="includes/edit.inc.php" method="POST">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" value="<?php echo htmlspecialchars($_SESSION['user_username']); ?>" style="border: none; font-weight: bold; text-transform: uppercase;" readonly>
+            <br><label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullName" value="<?php echo htmlspecialchars($_SESSION['user_fullName']);?>" style="font-weight: bold; text-transform: uppercase;" required>
+            <br><label for="new_password">Password:</label>
+            <input type="password" id="new_password" name="crpwd" placeholder="Input Password" required>
+            <br><label for="address">Address:</label>
+            <input type="text" id="address" name="address" placeholder="Input your address" value="<?php echo htmlspecialchars($_SESSION['user_address']); ?>">
+            <br><label for="email">Email:</label>
+            <input type="text" id="email" name="email" value="<?php echo htmlspecialchars($_SESSION["user_email"]); ?>" required>
+            <br><label for="phoneNumber">Phone Number:</label>
+            <input type="tel" id="phoneNumber" name="phoneNumber" value="<?php echo htmlspecialchars($_SESSION['user_phone']); ?>" required>
+            <button class="update" type="submit">Update Details</button>
+            <?php
+        check_edit_errors();
+        ?>
+    </form>
+    </h4>
+    </div>
            <div class="thirdcolumn">
 
            </div> 

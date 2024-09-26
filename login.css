@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    height: 550px;
+}
+
+h3 {
+    margin-top: 100px;
+    font-family: "DM Serif Text", serif;
+    font-size: 33px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+h5 {
+    font-family: "Work Sans", sans-serif;
+    text-align: center;
+    font-weight: 450;
+}
+
+.wel {
+    width: 535px;
+    height: 430px;
+    background-color: white;
+    margin: 20px 0 0 28%;
+    border-radius: 10px;
+    border: 1px solid #0057b8;
+}
+
+form {
+    padding-left: 55px;
+}
+
+
+.details {
+    padding-top: 55px;
+    font-size: 18px;
+}
+
+.detail {
+    padding-top: 25px;
+    font-size: 18px;
+    font-family: "Work Sans", sans-serif;
+}
+
+
+input {
+    width: 88%;
+    height: 50px;
+    border: 1px solid #0057b8;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-family: "Work Sans", sans-serif;
+}
+
+.login {
+    margin-top: 25px;
+    width: 80%;
+    height: 50px;
+    margin-left: 55px;
+    background-color:#0057b8;
+    border-radius: 20px;
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+}
+
+.login a {
+    margin-top: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.login:hover {
+    background-color: #1371d5;
+}
+
+.forget {
+    margin-top: 16px;
+    border-radius: 20px;
+    font-family: "Work Sans", sans-serif;
+    text-align: center;
+}
+
+.forget a {
+    color:#0057b8;
+}
+
+.forget a:hover {
+    color:#1371d5;
+}
+
+.new {
+    height: 50px;
+    margin-top: 16px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 500;
+}
+
+.new a {
+    color:#0057b8;
+}
+
+.new a:hover {
+    color:#1371d5;
+}

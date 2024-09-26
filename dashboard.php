@@ -1,3 +1,11 @@
+<?php
+
+require_once 'includes/config.inc.php';
+require_once 'includes/login_view.inc.php';
+require_once 'includes/login_model.inc.php';
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -50,7 +58,9 @@
             <ul class="ul-right">
                     <li><a href="#">Book appointment</a></li>
                     <li>
-                        <a href="#">Log in</a>
+                    <form action="includes/logout.inc.php" method="POST">
+           <a href="login.php">Logout</a>
+   </form>
                     </li>
                     <li>
                         <form action="#" method="post">
@@ -91,6 +101,14 @@
                 </div>
             </div>
         </div>
+        <div class="dashboard">
+        <?php
+    
+    output_username();
+   ?>
+    <button class="edit"><a href="edit.php">Edit Profile Details</a></button>
+    
+     </div>
         <div class="row3">
                 <div>
                     <center><img width="30px" height="30px" src="icons/stethsgreen.png" alt=""> <br>Doctors<p>47</p></center>
@@ -163,6 +181,7 @@
                 </div>
         </div>
     </div>
+    
     <div class="lastdiv">
             <img src="icons/donate.png" alt="#"><h1>Your gift holds great power – donate today! <br><span>Make your tax-deductible gift and be a part of the cutting-edge research and care that's changing medicine.</span></h1>
             <a href="#">Donate</a>
