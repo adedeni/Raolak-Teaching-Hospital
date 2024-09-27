@@ -106,7 +106,7 @@ require_once 'includes/login_model.inc.php';
     
     output_username();
    ?>
-    <button class="edit"><a href="edit.php">Edit Profile Details</a></button>
+    <button class="edit"><a href="edit.php" target="_blank">Edit Profile Details</a></button>
     
      </div>
         <div class="row3">

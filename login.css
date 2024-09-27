@@ -1,117 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
 body {
-    background-color: white;
-    height: 550px;
+    font-family: "Lora";
 }
-
-h3 {
-    margin-top: 100px;
-    font-family: "DM Serif Text", serif;
-    font-size: 33px;
-    text-align: center;
-    font-weight: 500;
-    letter-spacing: 1px;
-}
-
-h5 {
-    font-family: "Work Sans", sans-serif;
-    text-align: center;
-    font-weight: 450;
-}
-
-.wel {
-    width: 535px;
-    height: 430px;
-    background-color: white;
-    margin: 20px 0 0 28%;
-    border-radius: 10px;
-    border: 1px solid #0057b8;
-}
-
-form {
-    padding-left: 55px;
-}
-
-
-.details {
-    padding-top: 55px;
-    font-size: 18px;
-}
-
-.detail {
-    padding-top: 25px;
-    font-size: 18px;
-    font-family: "Work Sans", sans-serif;
-}
-
-
-input {
-    width: 88%;
-    height: 50px;
-    border: 1px solid #0057b8;
-    border-radius: 5px;
-    padding-left: 10px;
-    font-family: "Work Sans", sans-serif;
-}
-
-.login {
+.logo{
     margin-top: 25px;
-    width: 80%;
-    height: 50px;
-    margin-left: 55px;
-    background-color:#0057b8;
-    border-radius: 20px;
-    text-align: center;
-    font-family: "Work Sans", sans-serif;
+    width: 90px;
+    height: 90px;
 }
-
-.login a {
-    margin-top: 100px;
-    text-decoration: none;
-    font-size: 20px;
+.wrapper {
+    border: 1.5px solid rgb(143, 138, 138);
+    border-radius: 8px;
+    width: 50%;
+    height: 100%;
+    padding: 60px 20px;
+}
+.label {
+    font-weight: bold;
+    margin-right:325px;
+    line-height: 40px;
+    font-family: "Lora";
+    font-size: 18px;
+}
+.input {
+    height: 38px;
+    width: 400px;
+    padding-left: 6px;
+    border: 1.5px solid ;
+    border-radius: 5px;
+}
+.login {
+    height: 40px;
+    width: 410px;
+    border: 0px;
+    border-radius: 15px;
     color: white;
+    font-family: "Lora";
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #3c896d ;
 }
-
-.login:hover {
-    background-color: #1371d5;
+.login:hover{
+    background-color: #4fb286;
 }
-
-.forget {
-    margin-top: 16px;
-    border-radius: 20px;
-    font-family: "Work Sans", sans-serif;
-    text-align: center;
+.remember {
+    font-family: "Lora";
 }
-
-.forget a {
-    color:#0057b8;
-}
-
-.forget a:hover {
-    color:#1371d5;
-}
-
-.new {
-    height: 50px;
-    margin-top: 16px;
-    border-radius: 20px;
-    text-align: center;
-    font-family: "Work Sans", sans-serif;
-    font-weight: 500;
-}
-
-.new a {
-    color:#0057b8;
-}
-
-.new a:hover {
-    color:#1371d5;
+.checkbox {
+    gap: 910px;
 }

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 function output_username(){
-    if (isset($_SESSION["user_id"])){
+    if (isset($_SESSION["user_id"])) {
         echo '<h1>Welcome Dear, ' . $_SESSION["user_username"] . "!" . '<h3>' . "Username: " . $_SESSION["user_username"].'<br>'.'<br>'."Fullname: " . $_SESSION["user_fullName"].'<br>'.'<br>'."Email: ".$_SESSION["user_email"].'<br>'.'<br>'."Phone Number: ".$_SESSION["user_phone"].'<br>'.'<br>'."Gender: ".$_SESSION["user_gender"].'<br>'.'<br>'."State: ".$_SESSION["user_state"].'<br>'.'<br>'."Address: " .$_SESSION["user_address"];
     } else {
         echo '<p>Login Failed';
