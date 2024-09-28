@@ -70,7 +70,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'){
                 "state" => $state
             ];
             $_SESSION["signup_data"] = $signupdata;
-            header("Location: ../index.php");
+            header("Location: ../signup.php");
             die();
         }
         
@@ -90,6 +90,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'){
         die("Query failed: ". $e->getmessage());
     }
 }else {
-    header("Location:../index.php");
+    header("Location:../signup.php");
     die();
 }

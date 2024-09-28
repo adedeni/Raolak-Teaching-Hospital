@@ -11,11 +11,18 @@ body {
     border-radius: 8px;
     width: 50%;
     height: 100%;
-    padding: 60px 20px;
+    padding: 40px 20px;
 }
 .label {
     font-weight: bold;
     margin-right:325px;
+    line-height: 30px;
+    font-family: "Lora";
+    font-size: 18px;
+}
+.confirm {
+    font-weight: bold;
+    margin-right:250px;
     line-height: 40px;
     font-family: "Lora";
     font-size: 18px;
@@ -27,34 +34,17 @@ body {
     border: 1.5px solid ;
     border-radius: 5px;
 }
-.eye-icon {
-    position: absolute;
-    bottom: 16%;
-    right: 440px;
-    transform: translateY(-50%);
-    cursor: pointer;
-}
-.eye-icon img {
-    width: 24px;
-    height: 24px;
-}
-.login {
-    height: 40px;
-    width: 410px;
-    border: 0px;
-    border-radius: 15px;
+.sbutton {
+    padding: 6px 10px;
+    border: 1.5px solid silver;
+    border-radius: 12px;
     color: white;
     font-family: "Lora";
     font-size: 16px;
     font-weight: bold;
     background-color: #3c896d ;
 }
-.login:hover{
-    background-color: #4fb286;
+.sbutton:hover{
     transform: scale(1.01);
-}
-.remember {
-    font-family: "Lora";
-    text-align: left;
-    font-weight: bold;  
+    background-color: #4fb286;
 }

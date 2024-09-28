@@ -1,7 +1,0 @@
-index(banner, short about us, testimonies, FAQ)
-about us(comprehensive, meet our team, vision,mission
-contact us page(form filled for email, a map
-pricing page
-services
-register and login page
-dashboard
