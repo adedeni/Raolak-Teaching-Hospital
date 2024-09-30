@@ -49,9 +49,9 @@ function check_otp_error() {
         foreach ($_SESSION['errors_otp'] as $error) {
             echo "<p style='color:red;'>$error</p>";
             
-            if ($error === "OTP has expired!") {
-                echo '<form method="POST" action="r.inc.php"><input type="submit" name="submit" value="Regenerate OTP" required></form>';
-            }
+            // if ($error === "OTP has expired!") {
+            //     echo '<form method="POST" action="r.inc.php"><input type="submit" name="submit" value="Regenerate OTP" required></form>';
+            // }
         }
         unset($_SESSION['errors_otp']);
     }

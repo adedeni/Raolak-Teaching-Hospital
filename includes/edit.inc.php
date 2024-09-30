@@ -22,19 +22,19 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
     $result = getUserByUsername($pdo, $username);
 
     if (is_email_invalid($email)) {
-        $errors["invalid_email"] = "invalid email used!";
+        $errors["invalid_email"] = "Invalid email used!";
 
     }
     if (!validatePhoneNumber($phoneNumber)){
-        $errors[" invalid_phonenumber"] = "incorrect phone number formart";
+        $errors[" invalid_phonenumber"] = "Incorrect phone number formart";
 
     }
 
     if (!password_verify($crpwd,$result['pwd'])){
-        $errors["invalid_password"]="incorect password";
+        $errors["invalid_password"]="Incorect password";
      }
      if (is_fullname_long($fullName)){
-         $errors["fullname_long"] =  "characters too long kindly reduce!";
+         $errors["fullname_long"] =  "Characters too long kindly reduce!";
      }
  
      require_once 'config.inc.php';

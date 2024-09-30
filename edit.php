@@ -109,7 +109,7 @@ if(!isset($_SESSION['user_id'])){
             <br><label for="new_password">Password:</label>
             <input type="password" id="new_password" name="crpwd" placeholder="Input Password" required>
             <br><label for="address">Address:</label>
-            <input type="text" id="address" name="address" placeholder="Input your address" value="<?php echo htmlspecialchars($_SESSION['user_address']); ?>">
+            <input class="address" type="text" id="address" name="address" placeholder="Input your address" value="<?php echo htmlspecialchars($_SESSION['user_address']); ?>">
             <br><label for="email">Email:</label>
             <input type="text" id="email" name="email" value="<?php echo htmlspecialchars($_SESSION["user_email"]); ?>" required>
             <br><label for="phoneNumber">Phone Number:</label>
