@@ -56,12 +56,12 @@ function check_edit_errors()
 
         echo "<br>";
         foreach ($errors as $error) {
-            echo '<p>'.$error.'</p>';
+            echo '<p "style=color:red";>'.$error.'</p>';
         }
 
         unset($_SESSION['errors_edit']);
     } else if (isset($_GET["edit"]) && $_GET["edit"] ==="success") {
         echo '<br>';
-        echo '<h4>edit success</h4>';
+        echo '<h4 "style=color:green";>edit success</h4>';
     }
 }

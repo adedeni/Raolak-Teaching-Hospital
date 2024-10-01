@@ -15,7 +15,7 @@ if(!isset($_SESSION['otp'])){
     <meta name="keywords" content="healthcare, doctor, emergency, patients">
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="icons/favicon.png">
-    <link rel="stylesheet" href="newpwd.css?v=2.1">
+    <link rel="stylesheet" href="newpwd.css?v=3.1">
     <title>Set New Password</title>
 </head>
 <center>
@@ -26,7 +26,11 @@ if(!isset($_SESSION['otp'])){
     <h4>Password must be minimum of six characters long and must contain at least one alphabet and one number.</h4> <br>
     <form action="includes/newpwd.inc.php" method="POST">
     <label class="label" for="pwd">Password</label> <br>
-        <input class="input" type="password" name="pwd" placeholder="Set a new password" required><br><br>
+    <input id="password" class="input" type="password" name="pwd" placeholder="Set a password" required>
+        <span class="eye-icon" onclick="togglePassword()">
+                <img id="eyeIcon" src="https://img.icons8.com/ios-glyphs/30/000000/visible.png" alt="Show Password">
+        </span>
+        <br><br>
         <label class="confirm" for="cpwd">Confirm Password</label> <br>
         <input class="input" type="password" name="cpwd" placeholder="Confirm new password" required><br><br>
             <button class="sbutton">Change Password</button> <br>
@@ -39,6 +43,20 @@ if(!isset($_SESSION['otp'])){
         }
         ?>
     </form>
+    <script>
+    // Toggle password visibility
+    function togglePassword() {
+        const passwordField = document.getElementById("password");
+        const eyeIcon = document.getElementById("eyeIcon");
+        if (passwordField.type === "password") {
+            passwordField.type = "text";  // Show the password
+            eyeIcon.src = "https://img.icons8.com/ios-glyphs/30/000000/invisible.png";
+        } else {
+            passwordField.type = "password";  // Hide the password
+            eyeIcon.src = "https://img.icons8.com/ios-glyphs/30/000000/visible.png";
+        }
+    }
+</script>
     <br>
     <h4>Login to your account?</h4>
     <button class="sbutton"><a style="text-decoration: none; color: white;" href="login.php">Login</a></button>

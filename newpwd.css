@@ -34,6 +34,17 @@ body {
     border: 1.5px solid ;
     border-radius: 5px;
 }
+.eye-icon {
+    position: absolute;
+    top: 68%;
+    right: 440px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.eye-icon img {
+    width: 24px;
+    height: 24px;
+}
 .sbutton {
     padding: 6px 10px;
     border: 1.5px solid silver;
