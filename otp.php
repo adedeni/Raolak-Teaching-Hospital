@@ -24,7 +24,7 @@ require_once 'includes/otp_model.inc.php';
     <h4>Enter the OTP sent to your email below, to validate your new password.</h4> <br>
     <form action="includes/otp.inc.php" method="POST">
     <label class="label" for="otp">OTP</label> <br>
-        <input class="input" type="number" name="otp" placeholder="Input OTP here" > <br> <br>
+        <input class="input" type="number" name="otp" placeholder="Input OTP here" required> <br> <br>
         <input class="sbutton" type="submit" name="submit" value="Submit OTP" required>
         <?php check_otp_error();?>
     </form> <br>
