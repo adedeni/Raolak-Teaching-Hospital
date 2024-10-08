@@ -65,6 +65,34 @@
             </div>
         </nav>
     </header>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Select all the dropdown toggle elements
+            const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+            
+            // Loop through each dropdown toggle and add a click event listener
+            dropdownToggles.forEach(function (toggle) {
+                toggle.addEventListener('click', function (e) {
+                    e.preventDefault(); // Prevent default anchor behavior
+                    
+                    // Toggle the corresponding dropdown
+                    const dropdown = this.nextElementSibling;
+                    dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
+                });
+            });
+
+            // Close the dropdowns if clicking outside of them
+            window.addEventListener('click', function (e) {
+                // Check if the click is outside the dropdowns
+                if (!e.target.matches('.dropdown-toggle')) {
+                    dropdownToggles.forEach(function (toggle) {
+                        const dropdown = toggle.nextElementSibling;
+                        dropdown.style.display = 'none';
+                    });
+                }
+            });
+        });
+    </script>
     <main>
         <div class="banner">
             <p>The Zenith of Global Healthcare</p><span>Learn how we drive innovation</span><img width="15px" height="15px" src="icons/arrow.png" alt=""><a class="book" href="#">Book appointment with us</a>
