@@ -11,7 +11,10 @@
 //     'httponly' => true
 // ]);
 
-//session_start();
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+
 function regenerate_session_id_loggedin()
 {
     session_regenerate_id(true);
