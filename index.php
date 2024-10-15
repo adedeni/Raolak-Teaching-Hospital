@@ -7,16 +7,16 @@
     <meta name="Raolak Teaching Hospital" description="This is a Teaching Hospital website">
     <meta name="keywords" content="healthcare, doctor, emergency, patients">
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css?v=4.47">
     <link rel="shortcut icon" href="icons/favicon.png">
     <title>Home</title> 
 </head>
 <body>
     <header>
-        <a href="#" class="logo"><img class="logo" src="icons/logo.png" alt="Hospital logo"></a>
+        <a href="index.php" class="logo"><img class="logo" src="icons/logo.png" alt="Hospital logo"></a>
         <nav>
             <ul class="ul-left">
-                <li><a href="#">Laboratories <br>and Libraries <img width="18px" height="18px" src="icons/arrowdown.png" alt="#"></a>
+                <li><a class="dropdown-toggle" href="#">Laboratories <br>and Libraries <img class="arrowdown" width="18px" height="18px" src="icons/arrowdown.png" alt="#"></a>
                     <ul class="dropdown">
                         <li><a href="#">Hematology Lab</a></li>
                         <li><a href="#">Blood Bank</a></li>
@@ -24,22 +24,21 @@
                         <li><a href="#">Assisted Reproductive <br> Lab and Sperm Bank</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Clinics and <br>Departments <img width="18px" height="18px" src="icons/arrowdown.png" alt="#"></a>
+                <li><a class="dropdown-toggle" href="#">Clinics and <br>Departments <img class="arrowdown" width="18px" height="18px" src="icons/arrowdown.png" alt="#"></a>
                     <ul class="dropdown">
                         <li><a href="#">Accident and emergency (A&E) and Intensive Care Unit (ICU)</a></li>
                         <li><a href="#">Cardiology and General Surgery</a></li>
                         <li><a href="#">Disease and Infection Control</a></li>
-                        <li><a href="#">Neurology and Ophthalmology</a></li>
                         <li><a href="#">Obstetrics/Gynecology and Oncology</a></li>
                     </ul></li>
-                <li><a href="#">Medical Research <br>and Education <img width="18px" height="18px" src="icons/arrowdown.png" alt="#"></a>
+                <li><a class="dropdown-toggle" href="#">Medical Research <br>and Education <img class="arrowdown" width="18px" height="18px" src="icons/arrowdown.png" alt="#"></a>
                     <ul class="dropdown">
                         <li><a href="#">Postdoctoral Fellowships</a></li>
                         <li><a href="#">Training Grant Programs</a></li>
                         <li><a href="#">RAOLAK Clinic College of Medicine and Science</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Clinical Trials <br>and Drug-Test <img width="18px" height="18px" src="icons/arrowdown.png" alt="#"></a>
+                <li><a class="dropdown-toggle" href="#">Clinical Trials <br>and Drug-Test <img class="arrowdown" width="18px" height="18px" src="icons/arrowdown.png" alt="#"></a>
                     <ul class="dropdown">
                         <li><a href="#">Pilot and Feasibility Studies</a></li>
                         <li><a href="#">Prevention Trials and Test</a></li>
@@ -48,51 +47,59 @@
                     </ul>
             </ul>
             <ul class="ul-right">
-                    <li><a href="dashboard.html" target="_blank">Dashboard</a></li>
+                    <li><a href="portfolio/login.php" target="_blank">Login <svg  style="padding-left: 7px;"  width="19px" height="19px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#000000" d="M304 128a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM49.3 464l349.5 0c-8.9-63.3-63.3-112-129-112l-91.4 0c-65.7 0-120.1 48.7-129 112zM0 482.3C0 383.8 79.8 304 178.3 304l91.4 0C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7L29.7 512C13.3 512 0 498.7 0 482.3z"/></svg>
+                    </a></li>
                     <li>
-                        <a href="Register.html" target="_blank">Register</a>
+                        <a href="portfolio/signup.php" target="_blank">Register <svg  style="padding-left: 7px;"  width="20px" height="20px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="#000000" d="M96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM0 482.3C0 383.8 79.8 304 178.3 304l91.4 0C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7L29.7 512C13.3 512 0 498.7 0 482.3zM504 312l0-64-64 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l64 0 0-64c0-13.3 10.7-24 24-24s24 10.7 24 24l0 64 64 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-64 0 0 64c0 13.3-10.7 24-24 24s-24-10.7-24-24z"/></svg></a>
                     </li>
                     <li>
-                        <form action="#" method="post">
-                            <div class="search-container">
-                                <label for="text"></label>
-                                <input class="search" type="text" name="text" id="#" placeholder="Search by keyword">
-                                <button type="submit" class="search-button"><i class="fa fa-search"></i></button>
-                            </div>
-                        </form>
+                       
                     </li>
                 </ul>
             </div>
         </nav>
     </header>
     <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            // Select all the dropdown toggle elements
-            const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
-            
-            // Loop through each dropdown toggle and add a click event listener
-            dropdownToggles.forEach(function (toggle) {
-                toggle.addEventListener('click', function (e) {
-                    e.preventDefault(); // Prevent default anchor behavior
-                    
-                    // Toggle the corresponding dropdown
-                    const dropdown = this.nextElementSibling;
-                    dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
-                });
-            });
+  // dropdown and arrow rotation script
+document.querySelectorAll('.dropdown-toggle').forEach(toggle => {
+    toggle.addEventListener('click', function(event) {
+        event.preventDefault();  // Prevent default anchor behavior
 
-            // Close the dropdowns if clicking outside of them
-            window.addEventListener('click', function (e) {
-                // Check if the click is outside the dropdowns
-                if (!e.target.matches('.dropdown-toggle')) {
-                    dropdownToggles.forEach(function (toggle) {
-                        const dropdown = toggle.nextElementSibling;
-                        dropdown.style.display = 'none';
-                    });
+        // Find the corresponding dropdown menu and arrow icon
+        const dropdownMenu = this.nextElementSibling;
+        const arrowIcon = this.querySelector('.arrowdown');
+
+        // Toggle the dropdown visibility and arrow rotation
+        dropdownMenu.style.display = dropdownMenu.style.display === 'block' ? 'none' : 'block';
+        arrowIcon.classList.toggle('arrow-up');
+
+        // Close other open dropdowns and reset other arrows
+        document.querySelectorAll('.dropdown').forEach(menu => {
+            if (menu !== dropdownMenu) {
+                menu.style.display = 'none';
+                const otherArrow = menu.parentElement.querySelector('.arrowdown');
+                if (otherArrow) {
+                    otherArrow.classList.remove('arrow-up');
                 }
-            });
+            }
         });
-    </script>
+    });
+});
+
+// Close dropdown if clicking outside the dropdown area
+document.addEventListener('click', function(event) {
+    if (!event.target.closest('.dropdown-toggle')) {
+        document.querySelectorAll('.dropdown').forEach(menu => {
+            menu.style.display = 'none';  // Hide all dropdowns
+            const arrowIcon = menu.parentElement.querySelector('.arrowdown');
+            if (arrowIcon) {
+                arrowIcon.classList.remove('arrow-up');  // Reset arrow rotation
+            }
+        });
+    }
+});
+
+</script>
     <main>
         <div class="banner">
             <p>The Zenith of Global Healthcare</p><span>Learn how we drive innovation</span><img width="15px" height="15px" src="icons/arrow.png" alt=""><a class="book" href="#">Book appointment with us</a>
@@ -107,7 +114,7 @@
                         <h2>The right answers the first time</h2>
                         <p>Effective treatment depends on getting the right diagnosis. Our experts diagnose and treat the toughest medical challenges.</p>
                         <h2>Top-ranked in the Nigeria</h2>
-                        <p>RAOLAK Clinic has more No. 1 rankings than any other hospital in the nation according to Punch News & World Report. <a href="#">Learn more about our top-ranked specialties.</a><br>
+                        <p>RAOLAK Clinic has more No. 1 rankings than any other hospital in the nation according to Punch News & World Report. <a class="indexright-a" href="#">Learn more about our top-ranked specialties.</a><br>
                             <a class="indexbotton" href="#">Why choose RAOLAK Clinic</a>
                         </p>
                     </div>

@@ -1,4 +1,8 @@
 <?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
 session_start();
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
@@ -30,8 +34,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         }
         date_default_timezone_set('Africa/Lagos');
         $exptime = 60 * 1;
-        if (isOtpValid($otp, $otpData)) {
-            echo "OTP is valid!";
+        //var_dump (isOtpValid($otp, $otpData));
+        if (isOtpValid($otp, $storedOtp)) {
+           // echo "OTP is valid!";
             header("Location: ../newpwd.php");
         } else {
             echo "Invalid OTP!";

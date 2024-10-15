@@ -11,7 +11,7 @@
 //     'httponly' => true
 // ]);
 
-session_start();
+//session_start();
 function regenerate_session_id_loggedin()
 {
     session_regenerate_id(true);
@@ -50,4 +50,3 @@ if (isset($_SESSION['user_id'])){
     }
 
 }
-

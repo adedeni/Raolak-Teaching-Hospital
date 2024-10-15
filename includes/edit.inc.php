@@ -46,7 +46,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
          die();
      }
  
-     updateUserDetails($pdo, $username, $fullName, $address, $email, $phoneNumber);
+     updateUserDetails($pdo, $username, $fullName, $address, $email, $phoneNumber, $address);
         $_SESSION['user_fullName'] = htmlspecialchars($fullName);
         $_SESSION['user_email'] = htmlspecialchars($email);
         $_SESSION['user_phone'] = htmlspecialchars($phoneNumber);

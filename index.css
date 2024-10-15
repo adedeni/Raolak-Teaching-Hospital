@@ -104,6 +104,9 @@ input, select {
 html, body{
     height: 100%;
 }
+body {
+    padding-top: 110px; /* Same height as the header to prevent overlap */
+}
 main{
     min-height: 100%;
 }
@@ -115,96 +118,111 @@ footer{
 }
 /* ENDS HERE */
 /* HEADER STARTS HERE */
-header{
+header {
     background-color: white;
     width: 100%;
     height: 110px;
     border-bottom: 1px black solid;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Keeps the header above other content */
+    justify-content: space-between;
+    align-items: center; /* Vertically center the elements */
+    /*box-sizing: border-box;  Ensure padding/border does not increase header size */
 }
-.logo{
+
+.logo {
     margin: 5px 15px;
     float: left;
     width: 90px;
     height: 90px;
 }
-.ul-left{
+
+.ul-left {
     margin-left: 20px;
     float: left;
 }
-.ul-left li{
+
+.ul-left li {
     float: left;
-    padding: 30px 18px;
+    padding: 28px 18px;
     position: relative;
 }
-.ul-left li a{
+
+.ul-left li a {
     font-family: "Open Sans";
     font-size: 15px;
     font-weight: 500;
     color: black;
     word-spacing: 7px;
 }
-.ul-left li a:hover{
+
+.ul-left li a:hover {
     color: #3c896d;
     text-decoration: underline;
 }
-.dropdown{
+
+.dropdown {
     width: 220px;
-    display: none;
+    display: none; /* Hide by default */
     position: absolute;
     background-color: white;
     border-radius: 6px;
+    top: 100%;
 }
-.ul-left li:hover ul{
-    display: block;
-}
-.dropdown li a:hover{
+
+.dropdown li a:hover {
     background-color: #fafafa;
     color: #3c896d;
     text-decoration: underline;
 }
-.ul-right{
+
+
+.arrowdown {
+    transition: transform 0.3s ease;
+}
+
+.arrow-up {
+    transform: rotate(180deg); /* Rotate the arrow */
+}
+
+/* Dropdown visibility when shown */
+.show {
+    display: block;
+}
+
+.ul-right {
     float: left;
-    position:absolute;
+    position: absolute;
     right: 0px;
 }
-.ul-right li{
+
+.ul-right li {
     float: left;
     padding: 40px 10px;
 }
-.ul-right li a{
+
+.ul-right li a {
     font-family: "Open Sans";
     font-size: 15px;
     font-weight: 500;
     color: black;
 }
-.ul-right li a:hover{
+
+.ul-right li a:hover {
     color: #3c896d;
     text-decoration: underline;
 }
-.search-container {
-    position: relative;
-  }
-input{
-    height: 25px;
-    outline: none;
-    border: 1.7px solid;
-    border-radius: 10px;
-    margin-top: -6px;
-    padding-left: 8px;
-}
-.search-button {
-    border: none;
-  }
-::placeholder{
-    padding: 8px;
-}
+
 /* HEADER ENDS HERE */
 /* MAIN STARTS HERE */
 .banner{
     width: 100%;
     height: 530px;
-    animation: 40s slide infinite;
     background-position: center;
+    animation: slideEffect 40s infinite linear;
+    background-image: url('img/banner.png');
 }
 .banner p{
     padding: 40px;
@@ -247,25 +265,18 @@ input{
     color: black;
     border-color: black;
 }
-@keyframes slide{
-    0%,25% {
-        background-image: url(img/banner.png);
-    }
-    25%,50% {
-        background-image: url(img/banner2.png);
-    }
-    50%,75% {
-        background-image: url(img/banner3.png);
-    }
-    75%,100% {
-        background-image: url(img/banner4.png);
-    }
+@keyframes slideEffect {
+    0% { background-image: url('img/banner.png'); }
+    25% { background-image: url('img/banner2.png'); }
+    50% { background-image: url('img/banner3.png'); }
+    75% { background-image: url('img/banner4.png'); }
+    100% { background-image: url('img/banner.png'); }
 }
+
 .mainwrapper{
     margin: 5% 10% 5% 10%;
     display: flex;
     flex-direction: column;
-    gap: 50px;
 }
 .row1{
     display: flex;
@@ -342,12 +353,20 @@ input{
     margin-left: 20px;
     color: #3c896d;
 }
-.indexbotton{
+
+.indexright-a:hover{
+    text-decoration: underline;
+}
+
+.indexbotton {
     line-height: 90px;
     border-radius: 20px;
     padding: 13px;
     border: 2px #3c896d solid;
     color: #3c896d;
+}
+.indexbotton:hover {
+    padding: 14px;
 }
 .row3{
     display: flex;
