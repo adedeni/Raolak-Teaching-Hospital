@@ -18,7 +18,7 @@ require_once 'includes/otp_model.inc.php';
 </head>
 <center>
 <body>
-<a href="#" class="logo"><img class="logo" src="icons/logo.png" alt="Hospital logo"></a>
+<a href="../index.php" class="logo"><img class="logo" src="icons/logo.png" alt="Hospital logo"></a>
     <h1>Forget Password</h1>
     <div class="wrapper">
     <h4>Enter the OTP sent to your email below, to validate your new password.</h4> <br>

@@ -20,7 +20,7 @@ if(!isset($_SESSION['otp'])){
 </head>
 <center>
 <body>
-<a href="#" class="logo"><img class="logo" src="icons/logo.png" alt="Hospital logo"></a>
+<a href="../index.php" class="logo"><img class="logo" src="icons/logo.png" alt="Hospital logo"></a>
 <h1>Set new password here</h1>
     <div class="wrapper">
     <h4>Password must be minimum of six characters long and must contain at least one alphabet and one number.</h4> <br>

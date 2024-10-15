@@ -17,7 +17,7 @@ require_once 'includes/signup_view.inc.php';
 </head>
 <center>
 <body>
-<a href="#" class="logo"><img class="logo" src="icons/logo.png" alt="Hospital logo"></a>
+<a href="../index.php" class="logo"><img class="logo" src="icons/logo.png" alt="Hospital logo"></a>
 <h1>Welcome</h1>
     <h3>Sign Up and Creat an Account</h3>
     <div class="wrapper">
